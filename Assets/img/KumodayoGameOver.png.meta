@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KumodayoGameOver_0: 2730753797859569430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
