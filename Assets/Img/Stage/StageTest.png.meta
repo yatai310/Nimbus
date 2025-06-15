@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8e54c5260036f40c993aa1e5e4bc7541
+guid: 41903502f44bc4a68851313088f39e91
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1095699575966249065
-    second: titledorahuto2_0
+      213: -4745240543328250703
+    second: StageTest 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: titledorahuto2_0
+      name: StageTest 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 375
-        height: 125
+        width: 2000
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79f4cf97a0b4bc0f0800000000000000
-      internalID: -1095699575966249065
+      spriteID: 1b453210ed4852eb0800000000000000
+      internalID: -4745240543328250703
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      titledorahuto2_0: -1095699575966249065
+      StageTest 1_0: -4745240543328250703
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
