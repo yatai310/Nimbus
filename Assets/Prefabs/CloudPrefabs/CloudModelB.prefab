@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1539220643843468130}
   - component: {fileID: 4038536993245648700}
-  - component: {fileID: 8668325019299315773}
   - component: {fileID: 4793443430509183932}
   - component: {fileID: 2785386927879697446}
+  - component: {fileID: -3871752156907678067}
+  - component: {fileID: 2693138071632391739}
   m_Layer: 6
   m_Name: CloudModelB
   m_TagString: CloudModel
@@ -90,19 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8668325019299315773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6605395136540151874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a7a548f2a06aa34ebb9cc7623f444fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveForce: 10
 --- !u!58 &4793443430509183932
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -166,3 +154,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-3871752156907678067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6605395136540151874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7a548f2a06aa34ebb9cc7623f444fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+--- !u!114 &2693138071632391739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6605395136540151874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52856eee9d47774e9bfc753994d6b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveForce: 10
