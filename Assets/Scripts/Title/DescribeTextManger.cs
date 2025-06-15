@@ -17,11 +17,11 @@ public class DescribeTextManger : MonoBehaviour
         text.text = "Stage:" + PlayBotton.StageName + "\n";
         if(PlayBotton.StageName == "GameScene")
         {
-            text.text += "This is the first stage.";
+            text.text += "これは最初のステージだよ！面白そうだね！";
         }
         else if(PlayBotton.StageName == "AnotherGameStage")
         {
-            text.text += "This is an another stage you've never seen.";
+            text.text += "こっちはまだ実装されてないよ！ごめんねぇ！";
         }
         else if(PlayBotton.StageName == "Stage3")
         {
