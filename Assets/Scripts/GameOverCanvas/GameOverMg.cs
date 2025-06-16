@@ -37,6 +37,8 @@ public class GameOverMg : MonoBehaviour
             if (distance > radius){
                 popupPanel.SetActive(true);
                 gameOverFlag = true;
+                //時間を止める
+                Time.timeScale = 0f;
                 break;
             }
         }
