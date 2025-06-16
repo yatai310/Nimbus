@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Collections;
 
 public class CloudGenerator : MonoBehaviour
 {
@@ -44,7 +45,7 @@ public class CloudGenerator : MonoBehaviour
         // 最大レベルを超えたら単純に消すだけにするよ～～
         if (newLevel >= CloudPrefabs.Length)
         {
-            isMerging = false;
+            StartCoroutine(ResetMergingFlag());//マテちゃ
             return;
         }
         GameObject mergedCloud = Instantiate(CloudPrefabs[newLevel], mergePos, Quaternion.identity);
@@ -52,10 +53,15 @@ public class CloudGenerator : MonoBehaviour
         newC.level = newLevel;
         newC.OnCloudMergeRequested += CloudMergeRequest;//アクションに関数を渡してる
         Destroy(mergedCloud.GetComponent<CloudController>());
-        isMerging = false;
+        StartCoroutine(ResetMergingFlag());//マテちゃ
     }
     private void ControlKeyRequest(CloudController cloud){
         Destroy(cloud);
         CloudGenerate();
+    }
+    private IEnumerator ResetMergingFlag()
+    {
+        yield return null;//1フレーム待つ（Destroyが完全に終わるまで）
+        isMerging = false;
     }
 }
