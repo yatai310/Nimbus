@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CloudModel
   - Core
+  - AnotherGameStage
+  - GameScene
   layers:
   - Default
   - TransparentFX
