@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - CloudModel
+  - Core
+  - AnotherGameStage
+  - GameScene
   layers:
   - Default
   - TransparentFX
