@@ -6,42 +6,37 @@ public class CloudController : MonoBehaviour
 {
     [SerializeField] private float moveForce = 10f;
     private Rigidbody2D rb;
-    private bool hasLanded = false;
-    public Action OnLanded;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private bool controlKey;
+    public event Action<CloudController> OnCloudGenerateRequested;//通知用
+    private void Start()//初期化
     {
         Application.targetFrameRate = 60;
         rb = GetComponent<Rigidbody2D>();
+        controlKey = false;
+        Invoke("enableControl", 0.25f);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void enableControl()
     {
-        if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
-        {
-            rb.AddForce(-transform.right * moveForce, ForceMode2D.Impulse);
-        }
-        if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
-        {
-            rb.AddForce(transform.right * moveForce, ForceMode2D.Impulse);
-        }
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
-        {
-            rb.AddForce(transform.up * moveForce, ForceMode2D.Impulse);
-        }
-        if (Keyboard.current.downArrowKey.wasPressedThisFrame)
-        {
-            rb.AddForce(-transform.up * moveForce, ForceMode2D.Impulse);
+        controlKey = true;
+    }
+
+    private void Update()//操作機能
+    {
+        if(controlKey)
+        {   if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+                rb.AddForce(-transform.right * moveForce, ForceMode2D.Impulse);
+            if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+                rb.AddForce(transform.right * moveForce, ForceMode2D.Impulse);
+            if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+                rb.AddForce(transform.up * moveForce, ForceMode2D.Impulse);
+            if (Keyboard.current.downArrowKey.wasPressedThisFrame)
+                rb.AddForce(-transform.up * moveForce, ForceMode2D.Impulse);
         }
     }
-    void OnCollisionEnter2D(Collision2D collision)
+
+    private void OnCollisionEnter2D(Collision2D collision)//オブジェクト衝突時
     {
-        if(!hasLanded && (collision.gameObject.CompareTag("Core") || collision.gameObject.CompareTag("CloudModel")))
-        {
-            hasLanded = true;
-            rb.bodyType = RigidbodyType2D.Static;
-            OnLanded?.Invoke();
-        }
+        OnCloudGenerateRequested?.Invoke(this);
     }
 }
