@@ -4,7 +4,6 @@ using System;
 public class CloudGenerator : MonoBehaviour
 {
     public GameObject[] CloudPrefabs;
-    // private bool hasControlKey
 
     private void Start()//一発目
     {
@@ -16,6 +15,7 @@ public class CloudGenerator : MonoBehaviour
         int randomIndex = UnityEngine.Random.Range(0, CloudPrefabs.Length);
         float X = UnityEngine.Random.Range(-15, 16);
         float Y = Mathf.Sqrt(225 - X * X);
+        if(UnityEngine.Random.Range(-1, 1)==-1) Y *= -1;//これがないと下に生成されなくなる
 
         GameObject newCloud = Instantiate(CloudPrefabs[randomIndex], new Vector3(X, Y, 1f), Quaternion.identity);
         Cloud c = newCloud.GetComponent<Cloud>();
@@ -38,6 +38,7 @@ public class CloudGenerator : MonoBehaviour
         }
         Vector3 mergePos = (cloud1.transform.position + cloud2.transform.position) / 2f;//二つの雲の間に新しい雲生成
         int newLevel = cloud1.level + 1;
+        ScoreBoard.Instance.addScore((int)Mathf.Pow(2, newLevel));//合体したら得点をつける
         Destroy(cloud1.gameObject);//合体したら元のは消さないとね★
         Destroy(cloud2.gameObject);
         // 最大レベルを超えたら単純に消すだけにするよ～～
