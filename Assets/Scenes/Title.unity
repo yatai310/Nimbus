@@ -1467,7 +1467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eee80393c653c4152ae89d3dde96b55c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeInTime: 0
 --- !u!1 &727321345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,6 +1784,7 @@ MonoBehaviour:
   progressBar: {fileID: 1650546754}
   NowLoding: {fileID: 564953365}
   bgImage: {fileID: 707434619}
+  progressImage: {fileID: 419041068}
 --- !u!1 &901784698
 GameObject:
   m_ObjectHideFlags: 0
