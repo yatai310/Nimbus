@@ -27,11 +27,11 @@ public class GameOverMg : MonoBehaviour
     {
         if(gameOverFlag) return;//一度だけポップアップを表示
 
-        // 「Cloud」タグを持つオブジェクトをすべて取得
+        //「Cloud」タグを持つオブジェクトをすべて取得
         GameObject[] clouds = GameObject.FindGameObjectsWithTag("CloudModel");
 
        //ゲームオーバーを判定
-       foreach (GameObject cloud in clouds){
+        foreach (GameObject cloud in clouds){
             Vector2 position = cloud.transform.position;
             float distance = Vector2.Distance(position, center);
             if (distance > radius){
