@@ -416,7 +416,6 @@ GameObject:
   m_Component:
   - component: {fileID: 212139761}
   - component: {fileID: 212139762}
-  - component: {fileID: 212139763}
   m_Layer: 0
   m_Name: GameOverManager
   m_TagString: Untagged
@@ -456,18 +455,6 @@ MonoBehaviour:
   center: {x: 0, y: 0}
   radius: 30
   finalScore: {fileID: 2039140942}
---- !u!114 &212139763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212139760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6c32b75e22e2aa49885b894c818c144, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &452657595
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,7 +747,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &584214109
 RectTransform:
@@ -819,7 +806,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -453, y: -341}
+  m_AnchoredPosition: {x: 33, y: -341}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654141490
@@ -1190,7 +1177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attractionRadius: 15
-  attractionForce: 100
+  attractionForce: 10
   targetLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1687,7 +1674,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 05d61a4c636684745a514c38cb58df21, type: 2}
   m_sharedMaterial: {fileID: -4732237097024905758, guid: 05d61a4c636684745a514c38cb58df21, type: 2}
