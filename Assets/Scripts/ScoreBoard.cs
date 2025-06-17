@@ -35,7 +35,8 @@ public class ScoreBoard : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Your Score: " + Instance.currentScore.ToString();
+            //フォントの都合で変更するかも
+            scoreText.text = "雨量" + Instance.currentScore.ToString() + "mm";
         }
     }
 }
