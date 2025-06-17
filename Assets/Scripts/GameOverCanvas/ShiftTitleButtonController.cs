@@ -5,7 +5,9 @@ public class ShiftTitleButtonController : MonoBehaviour
 {
     public void ShiftClick()
     {
-        //ƒ^ƒCƒgƒ‹‰æ–Ê‚É‘JˆÚ
+        //æ™‚é–“ã‚’é€²ã‚ã‚‹ã€‚
+        Time.timeScale = 1f;
+        //Tilteç”»é¢ã«ç§»å‹•
         SceneManager.LoadScene("Title");
     }
 }
