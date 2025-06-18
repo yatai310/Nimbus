@@ -727,7 +727,7 @@ GameObject:
   - component: {fileID: 419041069}
   - component: {fileID: 419041068}
   m_Layer: 5
-  m_Name: Fill
+  m_Name: ProgressImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 564953367}
   - component: {fileID: 564953366}
   m_Layer: 5
-  m_Name: NowLoding
+  m_Name: NowLoading
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1429,7 +1429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1768,10 +1768,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb96112f30714dea938aa37229a83bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progressBar: {fileID: 1650546754}
-  NowLoding: {fileID: 564953365}
+  ProgressBar: {fileID: 1650546754}
+  NowLoading: {fileID: 564953365}
   bgImage: {fileID: 707434619}
-  progressImage: {fileID: 419041068}
+  ProgressImage: {fileID: 419041068}
 --- !u!1 &803035970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4091,7 +4091,7 @@ GameObject:
   - component: {fileID: 1650546753}
   - component: {fileID: 1650546754}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: ProgressSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4158,7 +4158,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 164470092}
   m_FillRect: {fileID: 419041067}
   m_HandleRect: {fileID: 164470091}
