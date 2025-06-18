@@ -19,7 +19,7 @@ public class CloudGenerator : MonoBehaviour
         if(isGenerating) return;//多重生成防止用
         isGenerating=true;
 
-        int randomIndex = UnityEngine.Random.Range(0, CloudPrefabs.Length);
+        int randomIndex = UnityEngine.Random.Range(0, CloudPrefabs.Length-2);
         float X = UnityEngine.Random.Range(-15, 16);
         float Y = Mathf.Sqrt(225 - X * X);
         if(UnityEngine.Random.Range(-1, 1)==-1) Y *= -1;//これがないと下に生成されなくなる
