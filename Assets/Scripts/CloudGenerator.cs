@@ -54,7 +54,12 @@ public class CloudGenerator : MonoBehaviour
 
         // 最大レベルを超えたら単純に消すだけにするよ～～
         if (newLevel >= CloudPrefabs.Length)
-        {
+        {   
+            //sanzasi
+            Debug.log("最大の雲同士が合体");
+            //ここに関数を追加予定
+
+
             StartCoroutine(ResetMergingFlag());//マテちゃ
             return;
         }
