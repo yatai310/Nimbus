@@ -598,7 +598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &584214106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,7 +1350,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.3019608, g: 0.3137255, b: 0.69803923, a: 0.3254902}
   m_FlipX: 0
@@ -2082,3 +2082,9 @@ SceneRoots:
   - {fileID: 1759911649}
   - {fileID: 212139761}
   - {fileID: 1461730795}
+  - {fileID: 3899305987676279982}
+  - {fileID: 8031370696788597845}
+  - {fileID: 3800092424868109487}
+  - {fileID: 6698804596173759261}
+  - {fileID: 2158231959680153676}
+  - {fileID: 584214109}
