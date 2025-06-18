@@ -5,6 +5,7 @@ using System;
 public class CloudController : MonoBehaviour
 {
     [SerializeField] private float moveForce = 10f;
+    Vector2 inputDir;
     private Rigidbody2D rb;
     private bool controlKey;//生成時すぐに操作して範囲外、ゲームオーバーを防止
     private bool hasTriggered;//多重衝突防止
@@ -23,20 +24,20 @@ public class CloudController : MonoBehaviour
         controlKey = true;
     }
 
-    private void Update()//操作機能
+    void Update()//操作機能
     {
-        if(controlKey)
-        {   if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
-                rb.AddForce(-transform.right * moveForce, ForceMode2D.Impulse);
-            if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
-                rb.AddForce(transform.right * moveForce, ForceMode2D.Impulse);
-            if (Keyboard.current.upArrowKey.wasPressedThisFrame)
-                rb.AddForce(transform.up * moveForce, ForceMode2D.Impulse);
-            if (Keyboard.current.downArrowKey.wasPressedThisFrame)
-                rb.AddForce(-transform.up * moveForce, ForceMode2D.Impulse);
-        }
+        inputDir = Vector2.zero;
+        if (Keyboard.current.leftArrowKey.isPressed) inputDir.x -= 1;
+        if (Keyboard.current.rightArrowKey.isPressed) inputDir.x += 1;
+        if (Keyboard.current.upArrowKey.isPressed) inputDir.y += 1;
+        if (Keyboard.current.downArrowKey.isPressed) inputDir.y -= 1;
     }
-
+    void FixedUpdate()
+    {
+        if (controlKey)
+            rb.AddForce(inputDir.normalized * moveForce, ForceMode2D.Impulse);
+    }
+    
     private void OnCollisionEnter2D(Collision2D collision)//オブジェクト衝突時
     {
         if(hasTriggered) return;//多重衝突防止

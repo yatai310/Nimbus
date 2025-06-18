@@ -63,10 +63,6 @@ public class Wind : MonoBehaviour
             currentWind = windForces[0];
             Debug.Log("風データ取得完了！");
         }
-        else if(request.result == UnityWebRequest.Result.InProgress)//ここ要らんの？
-        {
-            Debug.Log("リクエスト中だよぉ（ねっとり）");
-        }
         else
         {
             // 通信エラー処理
@@ -82,7 +78,7 @@ public class Wind : MonoBehaviour
         {
             timer = 0f;
             currentWindIndex += 1;
-            currentWind = 15*windForces[currentWindIndex];
+            currentWind = 10*windForces[currentWindIndex];
             Debug.Log($"風向変更: {currentWind}");
         }
 

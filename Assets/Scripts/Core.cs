@@ -21,10 +21,4 @@ public class Core : MonoBehaviour
             }
         }
     }
-
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(transform.position, attractionRadius);
-    }
 }
