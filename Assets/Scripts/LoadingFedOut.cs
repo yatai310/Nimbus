@@ -6,21 +6,29 @@ using Unity.VisualScripting;
 
 public class LoadingFedOut : MonoBehaviour
 {
-    private Slider ProgressBar;
     private GameObject NowLoading;
-	private Image BackgroundImage;
-    private Image ProgressImage;
+    public Slider ProgressBar;
+
+    private CanvasGroup LoadingCanvasGroup;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        ProgressBar = GameObject.Find("ProgressSlider").GetComponent<Slider>();
         NowLoading = GameObject.Find("NowLoading");
-        BackgroundImage  = GameObject.Find("BackgroundImage").GetComponent<Image>();
-        ProgressImage = ProgressBar.GetComponentInChildren<Image>();
-        
-        if (ProgressBar == null || NowLoading == null || BackgroundImage == null || ProgressImage == null)
+        LoadingCanvasGroup = NowLoading.GetComponent<CanvasGroup>();
+        ProgressBar = NowLoading.GetComponentInChildren<Slider>();
+        if (ProgressBar == null)
         {
-            Debug.LogError("One or more required components are missing.");
+            Debug.LogError("ProgressBar Slider is missing.");
+            return;
+        }
+        if (NowLoading == null)
+        {
+            Debug.LogError("NowLoading GameObject is missing.");
+            return;
+        }
+        if (LoadingCanvasGroup == null)
+        {
+            Debug.LogError("LoadingCanvasGroup component is missing.");
             return;
         }
        StartCoroutine(FadOut()); 
@@ -31,9 +39,7 @@ public class LoadingFedOut : MonoBehaviour
         // フェードアウトの処理
         for (float i = 1f; i > 0f; i -= 0.1f)
         {
-            BackgroundImage.color = new Color(1f, 1f, 1f, i);
-            ProgressImage.color = new Color(88f / 255f,233f / 255f, 30f / 255f, i);
-
+            LoadingCanvasGroup.alpha = i;
             yield return new WaitForSeconds(0.01f);
         }
         
