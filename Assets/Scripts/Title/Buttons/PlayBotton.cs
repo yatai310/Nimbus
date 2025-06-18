@@ -37,24 +37,18 @@ public class PlayBotton : MonoBehaviour
         AsyncOperation operation = SceneManager.LoadSceneAsync(StageName);
         operation.allowSceneActivation = false;
         NowLoding.SetActive(true);
-        // 背景画像のフェードイン
-        // for (float i = 0f; i < 1f; i += 0.1f)
-        // {
-        //     bgImage.color = new Color(0f, 0f, 0f, i);
-        //     yield return new WaitForSeconds(0.05f);
-        // }
+         // 背景画像のフェードイン
+        for(float i = 0f; i < 1f; i += 0.1f)
+        {
+            bgImage.color = new Color(0f, 0f, 0f, i);
+            progressImage.color = new Color(88f / 255f,233f / 255f, 30f / 255f, i);
+            yield return new WaitForSeconds(0.025f);
+        }
         while (!operation.isDone)
         {
             float progress = operation.progress;
             progressBar.value = progress / 0.9f;
             Debug.Log("Loading progress: " + progress);
-            // 背景画像のフェードイン
-            // for(float i = 0f; i < 1f; i += 0.1f)
-            // {
-            //     bgImage.color = new Color(0f, 0f, 0f, i);
-            //     progressImage.color = new Color(88f / 255f, 233f / 255f, 30f / 255f, i);
-            //     yield return new WaitForSeconds(0.025f);
-            // }
             if (progress >= 0.9f)
             {
                 yield return new WaitForSeconds(1f);
