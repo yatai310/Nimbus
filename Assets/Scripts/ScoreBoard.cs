@@ -1,9 +1,17 @@
 using UnityEngine;
+using TMPro;
 
 public class ScoreBoard : MonoBehaviour
 {
     public static ScoreBoard Instance;
     private int currentScore = 0;
+    public GameObject scoreObject;
+    private TextMeshProUGUI scoreText;
+    void Start()
+    {
+        scoreText = scoreObject.GetComponent<TextMeshProUGUI>();
+        UpdateScoreUI();
+    }
     void Awake()
     {
         if(Instance == null) Instance = this;
@@ -12,6 +20,7 @@ public class ScoreBoard : MonoBehaviour
     public void addScore(int score)
     {
         currentScore += score;
+        UpdateScoreUI(); // UIの更新も一緒に
     }
     public int getScore()
     {
@@ -20,5 +29,14 @@ public class ScoreBoard : MonoBehaviour
     public void resetScore()
     {
         currentScore = 0;
+        UpdateScoreUI(); // UIのリセットも一緒に
+    }
+    private void UpdateScoreUI()
+    {
+        if (scoreText != null)
+        {
+            //フォントの都合で変更するかも
+            scoreText.text = "雨量" + Instance.currentScore.ToString() + "mm";
+        }
     }
 }
