@@ -82,7 +82,7 @@ public class Wind : MonoBehaviour
         {
             timer = 0f;
             currentWindIndex += 1;
-            currentWind = 30*windForces[currentWindIndex];
+            currentWind = 15*windForces[currentWindIndex];
             Debug.Log($"風向変更: {currentWind}");
         }
 
@@ -96,7 +96,7 @@ public class Wind : MonoBehaviour
             }
         }
     }
-    private string FixJson(string json)
+    private string FixJson(string json)//json保存で型式の都合でこうせざるをえない
     {
         int listIndex = json.IndexOf("\"list\"");
         if (listIndex >= 0)
