@@ -962,8 +962,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1448726261}
   - component: {fileID: 1448726260}
-  - component: {fileID: 1448726259}
   - component: {fileID: 1448726262}
+  - component: {fileID: 1448726263}
   m_Layer: 0
   m_Name: Core
   m_TagString: Core
@@ -971,23 +971,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!114 &1448726259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448726258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96e37d00861f6a54f9984347541e354d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attractionRadius: 15
-  attractionForce: 100
-  targetLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!212 &1448726260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1094,6 +1077,24 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &1448726263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448726258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa67db94b48f5b4ea55ab54faf2f585, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceRadius: 15
+  attractionForce: 100
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  magnification: 30
 --- !u!1 &1461730793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,10 +1192,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1507539230}
   - component: {fileID: 1507539229}
-  - component: {fileID: 1507539231}
   - component: {fileID: 1507539232}
   - component: {fileID: 1507539233}
-  - component: {fileID: 1507539234}
   m_Layer: 0
   m_Name: Field
   m_TagString: Untagged
@@ -1272,52 +1271,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1507539231
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507539228}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!114 &1507539232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1336,7 +1289,7 @@ MonoBehaviour:
   - {fileID: 7434243676035332803, guid: 591e8f2476c324c21ac687294f9769ce, type: 3}
   - {fileID: 798914019580286129, guid: 6aa1130abe9f242ea96206114a709759, type: 3}
   - {fileID: 1233965454063202566, guid: 571af1c86e3a44ee694cede133647f14, type: 3}
-  BombForce: 17
+  BombForce: 23
   BombRadius: 5
   targetLayer:
     serializedVersion: 2
@@ -1353,22 +1306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02e93c1aa9da8a47ba4325b99688904, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1507539234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507539228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfa67db94b48f5b4ea55ab54faf2f585, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attractionRadius: 15
-  targetLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!1 &1759911646
 GameObject:
   m_ObjectHideFlags: 0

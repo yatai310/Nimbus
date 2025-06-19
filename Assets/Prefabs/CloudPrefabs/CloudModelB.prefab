@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -8939076655896209564}
   - component: {fileID: -6750932197796806944}
   - component: {fileID: -9027250637056750566}
+  - component: {fileID: 3327769172178422557}
   m_Layer: 6
   m_Name: CloudModelB
   m_TagString: CloudModel
@@ -390,7 +391,7 @@ PolygonCollider2D:
       - {x: 0.72999996, y: -6.29}
       - {x: 0.85999995, y: -6.22}
       - {x: 0.94, y: -6.17}
-  m_UseDelaunayMesh: 0
+  m_UseDelaunayMesh: 1
 --- !u!114 &-8939076655896209564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f52856eee9d47774e9bfc753994d6b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 10
+  moveForce: 3
 --- !u!50 &-9027250637056750566
 Rigidbody2D:
   serializedVersion: 5
@@ -444,3 +445,48 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!66 &3327769172178422557
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4464198775030080073}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths: []
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 4464198775030080073}

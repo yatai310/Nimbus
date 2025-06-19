@@ -5,8 +5,10 @@ using UnityEngine.Networking;
 
 public class Wind : MonoBehaviour
 {
-    public float attractionRadius = 15f;//風の影響範囲（半径）
+    public float forceRadius = 15f;//風の影響範囲（半径）
+    public float attractionForce = 10f;//coreから移植、引力
     public LayerMask targetLayer;//風の影響を受ける対象レイヤー
+    public float magnification;
 
     private List<Vector2> windForces = new List<Vector2>();//各時間ごとの風力ベクトルを格納
     private int currentWindIndex;//現在適用中の風データのインデックス
@@ -78,17 +80,18 @@ public class Wind : MonoBehaviour
         {
             timer = 0f;
             currentWindIndex += 1;
-            currentWind = 10*windForces[currentWindIndex];
+            currentWind = magnification*windForces[currentWindIndex];//風のつよさ制限したいからなんか入れるかもここら辺に
             Debug.Log($"風向変更: {currentWind}");
         }
 
-        Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, attractionRadius, targetLayer);//風の影響範囲に入っているオブジェクトを取得
+        Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, forceRadius, targetLayer);//風の影響範囲に入っているオブジェクトを取得
         foreach (Collider2D target in targets)
         {
             Rigidbody2D rb = target.attachedRigidbody;
             if (rb != null)//Rigidbody2D があれば風の力を加える
             {
-                rb.AddForce(currentWind);//ForceMode2D.Forceは加速させます、いるのかな？
+                Vector2 direction = (transform.position - target.transform.position).normalized;
+                rb.AddForce(direction * attractionForce + currentWind);//ForceMode2D.Forceいるのかな？
             }
         }
     }
