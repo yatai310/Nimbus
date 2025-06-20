@@ -1302,6 +1302,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92e6d7ef288eda646a53ea44d483db32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 100
+  resetPositionX: 1300
+  startPositionX: -600
+  alertObject: {fileID: 1326285713}
 --- !u!1 &1326285713
 GameObject:
   m_ObjectHideFlags: 0
