@@ -37,8 +37,20 @@ public class CloudController : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 direction = (core.transform.position - this.transform.position).normalized;
+        Vector2 ortho = new Vector2(-direction.y, direction.x);
+
+        // 入力ベクトルを分解
+        float alongCore = Vector2.Dot(inputDir, direction);
+        float alongOrtho = Vector2.Dot(inputDir, ortho);
+
+        // core方向の逆成分を消す
+        if (alongCore < 0) alongCore = 0;
+
+        // 必要なら再構成
+        Vector2 result = direction * alongCore + ortho * alongOrtho;
+
         if (controlKey)
-            rb.AddForce(inputDir.normalized * moveForce, ForceMode2D.Impulse);
+            rb.AddForce(result.normalized * moveForce, ForceMode2D.Impulse);
     }
     
     private void OnCollisionEnter2D(Collision2D collision)//オブジェクト衝突時
