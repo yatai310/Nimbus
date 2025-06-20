@@ -25,7 +25,7 @@ public class GameOverMg : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if(gameOverFlag) return;//一度だけポップアップを表示
 

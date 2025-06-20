@@ -36,7 +36,7 @@ public class ScoreBoard : MonoBehaviour
         if (scoreText != null)
         {
             //フォントの都合で変更するかも
-            scoreText.text = "your score" + Instance.currentScore.ToString() + "mm";
+            scoreText.text = "your score\n" + Instance.currentScore.ToString() + "mm";
         }
     }
 }
