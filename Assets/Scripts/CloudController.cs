@@ -6,6 +6,7 @@ public class CloudController : MonoBehaviour
 {
     [SerializeField] private float moveForce = 10f;
     Vector2 inputDir;
+    public GameObject core;
     private Rigidbody2D rb;
     private bool controlKey;//生成時すぐに操作して範囲外、ゲームオーバーを防止
     private bool hasTriggered;//多重衝突防止
@@ -35,6 +36,7 @@ public class CloudController : MonoBehaviour
     }
     void FixedUpdate()
     {
+        Vector2 direction = (core.transform.position - this.transform.position).normalized;
         if (controlKey)
             rb.AddForce(inputDir.normalized * moveForce, ForceMode2D.Impulse);
     }
