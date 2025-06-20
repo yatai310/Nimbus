@@ -13,7 +13,7 @@ public class Cloud : MonoBehaviour
             Cloud otherC = collision.gameObject.GetComponent<Cloud>();
             if (otherC.level == this.level && otherC != null)//衝突したCloudオブジェクトと同レベルなら
             {
-                if(this.GetInstanceID() < otherC.GetInstanceID())OnCloudMergeRequested?.Invoke(this, otherC);//CloudGeneratorに通知
+                if(this.GetInstanceID() < otherC.GetInstanceID()) OnCloudMergeRequested?.Invoke(this, otherC);//CloudGeneratorに通知
             }
         }
     }

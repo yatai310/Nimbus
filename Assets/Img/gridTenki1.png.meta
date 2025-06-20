@@ -1,0 +1,5837 @@
+fileFormatVersion: 2
+guid: 7351677fd489241848f603c091e6ae1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5165311198279579823
+    second: gridTenki1_0
+  - first:
+      213: -9010800145463037480
+    second: gridTenki1_1
+  - first:
+      213: 7975616817204762772
+    second: gridTenki1_2
+  - first:
+      213: -5053673173175212995
+    second: gridTenki1_3
+  - first:
+      213: 738046379597250567
+    second: gridTenki1_4
+  - first:
+      213: 4593324699471019105
+    second: gridTenki1_5
+  - first:
+      213: -717096350657633887
+    second: gridTenki1_6
+  - first:
+      213: 1827820310626456974
+    second: gridTenki1_7
+  - first:
+      213: -3906448764099305630
+    second: gridTenki1_8
+  - first:
+      213: 6719428873789201822
+    second: gridTenki1_9
+  - first:
+      213: 8013563248787885532
+    second: gridTenki1_10
+  - first:
+      213: 4270211615757836531
+    second: gridTenki1_11
+  - first:
+      213: 8244798329628304027
+    second: gridTenki1_12
+  - first:
+      213: -8847606655804252333
+    second: gridTenki1_13
+  - first:
+      213: -6016477791333370336
+    second: gridTenki1_14
+  - first:
+      213: 2637516316705489362
+    second: gridTenki1_15
+  - first:
+      213: 288849232703666193
+    second: gridTenki1_16
+  - first:
+      213: -4555143246677722191
+    second: gridTenki1_17
+  - first:
+      213: 3235363666696747078
+    second: gridTenki1_18
+  - first:
+      213: -4852739509028892813
+    second: gridTenki1_19
+  - first:
+      213: -6396939204584023728
+    second: gridTenki1_20
+  - first:
+      213: 4055127640481169472
+    second: gridTenki1_21
+  - first:
+      213: 7705594516852505791
+    second: gridTenki1_22
+  - first:
+      213: -2009864189564058844
+    second: gridTenki1_23
+  - first:
+      213: 3323217139237641580
+    second: gridTenki1_24
+  - first:
+      213: 856523980929336447
+    second: gridTenki1_25
+  - first:
+      213: 508139953748099461
+    second: gridTenki1_26
+  - first:
+      213: 379713199003793296
+    second: gridTenki1_27
+  - first:
+      213: 7865222668269040643
+    second: gridTenki1_28
+  - first:
+      213: 5933609172491016766
+    second: gridTenki1_29
+  - first:
+      213: 4421274932055049958
+    second: gridTenki1_30
+  - first:
+      213: -3891172406240966298
+    second: gridTenki1_31
+  - first:
+      213: 7379105100934521804
+    second: gridTenki1_32
+  - first:
+      213: 1621313048870095429
+    second: gridTenki1_33
+  - first:
+      213: -8238603082029361808
+    second: gridTenki1_34
+  - first:
+      213: 1971797556039627965
+    second: gridTenki1_35
+  - first:
+      213: 2936397518026018391
+    second: gridTenki1_36
+  - first:
+      213: -6642103646498055144
+    second: gridTenki1_37
+  - first:
+      213: 7523605466922013333
+    second: gridTenki1_38
+  - first:
+      213: 3422423675519597605
+    second: gridTenki1_39
+  - first:
+      213: 4454983355399931842
+    second: gridTenki1_40
+  - first:
+      213: 7672484212410708694
+    second: gridTenki1_41
+  - first:
+      213: -8965277121197241651
+    second: gridTenki1_42
+  - first:
+      213: 1447173290285528546
+    second: gridTenki1_43
+  - first:
+      213: -5325122293951986804
+    second: gridTenki1_44
+  - first:
+      213: -3939203030177885550
+    second: gridTenki1_45
+  - first:
+      213: -8050016203006036450
+    second: gridTenki1_46
+  - first:
+      213: 6885511491269493607
+    second: gridTenki1_47
+  - first:
+      213: -8930120750227974149
+    second: gridTenki1_48
+  - first:
+      213: -2348791261882215814
+    second: gridTenki1_49
+  - first:
+      213: 3249391631719450821
+    second: gridTenki1_50
+  - first:
+      213: -308538392132061756
+    second: gridTenki1_51
+  - first:
+      213: -8690471196471556238
+    second: gridTenki1_52
+  - first:
+      213: 646970249469431116
+    second: gridTenki1_53
+  - first:
+      213: 7436180809913569994
+    second: gridTenki1_54
+  - first:
+      213: -4100564813539667940
+    second: gridTenki1_55
+  - first:
+      213: 6522241217064422514
+    second: gridTenki1_56
+  - first:
+      213: 7028257960113483738
+    second: gridTenki1_57
+  - first:
+      213: 8252318496433117239
+    second: gridTenki1_58
+  - first:
+      213: 3329474979646793789
+    second: gridTenki1_59
+  - first:
+      213: 1002663558475132084
+    second: gridTenki1_60
+  - first:
+      213: 1299592328363316601
+    second: gridTenki1_61
+  - first:
+      213: 5675918760387971084
+    second: gridTenki1_62
+  - first:
+      213: 2159021453330092820
+    second: gridTenki1_63
+  - first:
+      213: -1373021907692246783
+    second: gridTenki1_64
+  - first:
+      213: -2437301436643283092
+    second: gridTenki1_65
+  - first:
+      213: -8090874115684618692
+    second: gridTenki1_66
+  - first:
+      213: -60726370625338694
+    second: gridTenki1_67
+  - first:
+      213: 6102269768824729057
+    second: gridTenki1_68
+  - first:
+      213: -780343557391332398
+    second: gridTenki1_69
+  - first:
+      213: -3024734512146701008
+    second: gridTenki1_70
+  - first:
+      213: 4502797983142047873
+    second: gridTenki1_71
+  - first:
+      213: 7806972655924698912
+    second: gridTenki1_72
+  - first:
+      213: -2327140084693566842
+    second: gridTenki1_73
+  - first:
+      213: -9081506130603500238
+    second: gridTenki1_74
+  - first:
+      213: 4686439262412984156
+    second: gridTenki1_75
+  - first:
+      213: 2539557918483309884
+    second: gridTenki1_76
+  - first:
+      213: -2742524370978407850
+    second: gridTenki1_77
+  - first:
+      213: 420713714493471037
+    second: gridTenki1_78
+  - first:
+      213: 7915944680516897417
+    second: gridTenki1_79
+  - first:
+      213: -5883544357825845332
+    second: gridTenki1_80
+  - first:
+      213: -662121907052860762
+    second: gridTenki1_81
+  - first:
+      213: -3928935904215130065
+    second: gridTenki1_82
+  - first:
+      213: -4061951433639840484
+    second: gridTenki1_83
+  - first:
+      213: -7370255922058224022
+    second: gridTenki1_84
+  - first:
+      213: 1532496708982028084
+    second: gridTenki1_85
+  - first:
+      213: 6329316916776213876
+    second: gridTenki1_86
+  - first:
+      213: -6560152619740358539
+    second: gridTenki1_87
+  - first:
+      213: -881703923243156350
+    second: gridTenki1_88
+  - first:
+      213: -2518590592642519364
+    second: gridTenki1_89
+  - first:
+      213: -8795819214568810123
+    second: gridTenki1_90
+  - first:
+      213: 6870442063451820014
+    second: gridTenki1_91
+  - first:
+      213: 4902589970577995905
+    second: gridTenki1_92
+  - first:
+      213: 6616896017792963563
+    second: gridTenki1_93
+  - first:
+      213: -5590782049630003663
+    second: gridTenki1_94
+  - first:
+      213: -2527599176265818090
+    second: gridTenki1_95
+  - first:
+      213: -8431559107491549756
+    second: gridTenki1_96
+  - first:
+      213: -311795456872279869
+    second: gridTenki1_97
+  - first:
+      213: -8158118586580733546
+    second: gridTenki1_98
+  - first:
+      213: -6563557035413318927
+    second: gridTenki1_99
+  - first:
+      213: -1823071693471664723
+    second: gridTenki1_100
+  - first:
+      213: -6971698830655305124
+    second: gridTenki1_101
+  - first:
+      213: -2878571482204445822
+    second: gridTenki1_102
+  - first:
+      213: 1792777461515870397
+    second: gridTenki1_103
+  - first:
+      213: -5438594437045132960
+    second: gridTenki1_104
+  - first:
+      213: 3352950091133782415
+    second: gridTenki1_105
+  - first:
+      213: -6605211759072176731
+    second: gridTenki1_106
+  - first:
+      213: 3257546320405787463
+    second: gridTenki1_107
+  - first:
+      213: 5253917076358261476
+    second: gridTenki1_108
+  - first:
+      213: -953634708030230682
+    second: gridTenki1_109
+  - first:
+      213: 7878018173761825263
+    second: gridTenki1_110
+  - first:
+      213: 2222411348923791097
+    second: gridTenki1_111
+  - first:
+      213: 1815264341236085633
+    second: gridTenki1_112
+  - first:
+      213: -1758347843141624415
+    second: gridTenki1_113
+  - first:
+      213: -1181547347096249842
+    second: gridTenki1_114
+  - first:
+      213: -1915456214295673926
+    second: gridTenki1_115
+  - first:
+      213: -2036534232636059107
+    second: gridTenki1_116
+  - first:
+      213: -7464236301642661353
+    second: gridTenki1_117
+  - first:
+      213: 7977541675957465985
+    second: gridTenki1_118
+  - first:
+      213: 5579949273487658485
+    second: gridTenki1_119
+  - first:
+      213: -7677188337124170024
+    second: gridTenki1_120
+  - first:
+      213: -4227157025890090109
+    second: gridTenki1_121
+  - first:
+      213: 8938141828298146769
+    second: gridTenki1_122
+  - first:
+      213: 4069367125339848232
+    second: gridTenki1_123
+  - first:
+      213: 6628228653909026872
+    second: gridTenki1_124
+  - first:
+      213: -4476387013685716584
+    second: gridTenki1_125
+  - first:
+      213: 2098542135196847791
+    second: gridTenki1_126
+  - first:
+      213: -7387415027452899769
+    second: gridTenki1_127
+  - first:
+      213: 4727386250112955125
+    second: gridTenki1_128
+  - first:
+      213: 7873137401667287931
+    second: gridTenki1_129
+  - first:
+      213: -9011259836100067964
+    second: gridTenki1_130
+  - first:
+      213: -6660096230520867856
+    second: gridTenki1_131
+  - first:
+      213: -2295067844997663865
+    second: gridTenki1_132
+  - first:
+      213: -555486617638963453
+    second: gridTenki1_133
+  - first:
+      213: -1569871066684952964
+    second: gridTenki1_134
+  - first:
+      213: 1850681446057361710
+    second: gridTenki1_135
+  - first:
+      213: 1028862950438978455
+    second: gridTenki1_136
+  - first:
+      213: -1784578131669437264
+    second: gridTenki1_137
+  - first:
+      213: 8146479380842788057
+    second: gridTenki1_138
+  - first:
+      213: 2000588630421016731
+    second: gridTenki1_139
+  - first:
+      213: -166658438838969734
+    second: gridTenki1_140
+  - first:
+      213: -7654370813145757905
+    second: gridTenki1_141
+  - first:
+      213: -6475525099585207241
+    second: gridTenki1_142
+  - first:
+      213: 5286903877770187242
+    second: gridTenki1_143
+  - first:
+      213: 5353809963015240406
+    second: gridTenki1_144
+  - first:
+      213: 4296785938380726698
+    second: gridTenki1_145
+  - first:
+      213: -5222796006634528159
+    second: gridTenki1_146
+  - first:
+      213: 6920649260578450622
+    second: gridTenki1_147
+  - first:
+      213: 3466340640238960454
+    second: gridTenki1_148
+  - first:
+      213: 8045746937073980070
+    second: gridTenki1_149
+  - first:
+      213: -4487637646110474593
+    second: gridTenki1_150
+  - first:
+      213: 3870654728244735404
+    second: gridTenki1_151
+  - first:
+      213: 3689281752663500378
+    second: gridTenki1_152
+  - first:
+      213: -7198352339014143186
+    second: gridTenki1_153
+  - first:
+      213: -150742098273710782
+    second: gridTenki1_154
+  - first:
+      213: 6637738431143444688
+    second: gridTenki1_155
+  - first:
+      213: 2510056251011360519
+    second: gridTenki1_156
+  - first:
+      213: 1479587535012285663
+    second: gridTenki1_157
+  - first:
+      213: -4140131735312489726
+    second: gridTenki1_158
+  - first:
+      213: -1560039980186408463
+    second: gridTenki1_159
+  - first:
+      213: -1691689777869868758
+    second: gridTenki1_160
+  - first:
+      213: -6315225263211533963
+    second: gridTenki1_161
+  - first:
+      213: -421771226044555548
+    second: gridTenki1_162
+  - first:
+      213: -6373838336480874882
+    second: gridTenki1_163
+  - first:
+      213: 4112014986087724660
+    second: gridTenki1_164
+  - first:
+      213: 495934638511384362
+    second: gridTenki1_165
+  - first:
+      213: 3742907481799488562
+    second: gridTenki1_166
+  - first:
+      213: -6152410229871175539
+    second: gridTenki1_167
+  - first:
+      213: -8231583344589991875
+    second: gridTenki1_168
+  - first:
+      213: -8837082459097864230
+    second: gridTenki1_169
+  - first:
+      213: -2793654973852700428
+    second: gridTenki1_170
+  - first:
+      213: 2532104977089089783
+    second: gridTenki1_171
+  - first:
+      213: -2002192133582920871
+    second: gridTenki1_172
+  - first:
+      213: 391794179300778708
+    second: gridTenki1_173
+  - first:
+      213: -2139631725571445140
+    second: gridTenki1_174
+  - first:
+      213: 7555856147048384386
+    second: gridTenki1_175
+  - first:
+      213: 5443939370939928745
+    second: gridTenki1_176
+  - first:
+      213: 5387586276101187547
+    second: gridTenki1_177
+  - first:
+      213: 8424391538892378173
+    second: gridTenki1_178
+  - first:
+      213: 3158218759920039809
+    second: gridTenki1_179
+  - first:
+      213: -8970723655414245342
+    second: gridTenki1_180
+  - first:
+      213: -5649901765105154744
+    second: gridTenki1_181
+  - first:
+      213: 4376492115394867855
+    second: gridTenki1_182
+  - first:
+      213: -7725909439414281259
+    second: gridTenki1_183
+  - first:
+      213: 4080489262169089081
+    second: gridTenki1_184
+  - first:
+      213: -2816245755301357621
+    second: gridTenki1_185
+  - first:
+      213: 4699652845534761850
+    second: gridTenki1_186
+  - first:
+      213: -2975187282696962665
+    second: gridTenki1_187
+  - first:
+      213: 9184159757561847541
+    second: gridTenki1_188
+  - first:
+      213: 5561510958242997017
+    second: gridTenki1_189
+  - first:
+      213: -8283000798341497210
+    second: gridTenki1_190
+  - first:
+      213: 3032193332300889169
+    second: gridTenki1_191
+  - first:
+      213: -7258300580113552616
+    second: gridTenki1_192
+  - first:
+      213: 6917838224293881064
+    second: gridTenki1_193
+  - first:
+      213: 6803879067313239176
+    second: gridTenki1_194
+  - first:
+      213: 3760238131492947814
+    second: gridTenki1_195
+  - first:
+      213: -3130563429484575273
+    second: gridTenki1_196
+  - first:
+      213: -8494113443004429225
+    second: gridTenki1_197
+  - first:
+      213: 6809955379462845631
+    second: gridTenki1_198
+  - first:
+      213: 7235205973988504066
+    second: gridTenki1_199
+  - first:
+      213: 8755643246131821257
+    second: gridTenki1_200
+  - first:
+      213: 944735176399504716
+    second: gridTenki1_201
+  - first:
+      213: 3810430109635218963
+    second: gridTenki1_202
+  - first:
+      213: 8926217063948785323
+    second: gridTenki1_203
+  - first:
+      213: 8814890638424376635
+    second: gridTenki1_204
+  - first:
+      213: -2016921825502557894
+    second: gridTenki1_205
+  - first:
+      213: 7407369225896731503
+    second: gridTenki1_206
+  - first:
+      213: -4597329441360513691
+    second: gridTenki1_207
+  - first:
+      213: -5844106859321195328
+    second: gridTenki1_208
+  - first:
+      213: -8093270597131804431
+    second: gridTenki1_209
+  - first:
+      213: -2129949208825503756
+    second: gridTenki1_210
+  - first:
+      213: -3634776785614346818
+    second: gridTenki1_211
+  - first:
+      213: 5136913521694034626
+    second: gridTenki1_212
+  - first:
+      213: -6916144985176765411
+    second: gridTenki1_213
+  - first:
+      213: 5299073079250122817
+    second: gridTenki1_214
+  - first:
+      213: 8339246871843530498
+    second: gridTenki1_215
+  - first:
+      213: 5974508346577208398
+    second: gridTenki1_216
+  - first:
+      213: -2979530353462577799
+    second: gridTenki1_217
+  - first:
+      213: 7595914913195767405
+    second: gridTenki1_218
+  - first:
+      213: -2073194514600083041
+    second: gridTenki1_219
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gridTenki1_0
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1257
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157c23805d02158b0800000000000000
+      internalID: -5165311198279579823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1369
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d133ab420533f280800000000000000
+      internalID: -9010800145463037480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_2
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1389
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4981f161d351fae60800000000000000
+      internalID: 7975616817204762772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1369
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3468f5460fbdd9b0800000000000000
+      internalID: -5053673173175212995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1257
+        width: 137
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70048ab95411e3a00800000000000000
+      internalID: 738046379597250567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1369
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c7ff94a74cebf30800000000000000
+      internalID: 4593324699471019105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_6
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1389
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1a25d1bac5c06f0800000000000000
+      internalID: -717096350657633887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1369
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85522863e8bd5910800000000000000
+      internalID: 1827820310626456974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_8
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1257
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fd89adb8189c9c0800000000000000
+      internalID: -3906448764099305630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1369
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d55bba5f4304d50800000000000000
+      internalID: 6719428873789201822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_10
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1389
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd802d2155e53f60800000000000000
+      internalID: 8013563248787885532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_11
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1369
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f02ef807d6d24b30800000000000000
+      internalID: 4270211615757836531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_12
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1257
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92aa32e5686b6270800000000000000
+      internalID: 8244798329628304027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_13
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1369
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fd7688f9cf63580800000000000000
+      internalID: -8847606655804252333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_14
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1389
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0263c80535d218ca0800000000000000
+      internalID: -6016477791333370336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_15
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1369
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1078aad175a9420800000000000000
+      internalID: 2637516316705489362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1258
+        width: 156
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11832f4c8d2320400800000000000000
+      internalID: 288849232703666193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1330
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb31c0f951e8c0c0800000000000000
+      internalID: -4555143246677722191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_18
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1290
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6483aa8fc1256ec20800000000000000
+      internalID: 3235363666696747078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1330
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f44d0a02b97acb0800000000000000
+      internalID: -4852739509028892813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_20
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1258
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059dff49fa18937a0800000000000000
+      internalID: -6396939204584023728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_21
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1330
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0408fb1aa15b64830800000000000000
+      internalID: 4055127640481169472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_22
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1290
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcf0381365cfea60800000000000000
+      internalID: 7705594516852505791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_23
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1330
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42381461b278b14e0800000000000000
+      internalID: -2009864189564058844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_24
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1258
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ddfb781607e1e20800000000000000
+      internalID: 3323217139237641580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_25
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1330
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7485e8c50cf2eb00800000000000000
+      internalID: 856523980929336447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_26
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1290
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581c65f78964d0700800000000000000
+      internalID: 508139953748099461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_27
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1330
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097f5278423054500800000000000000
+      internalID: 379713199003793296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_28
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1258
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304b6855852e62d60800000000000000
+      internalID: 7865222668269040643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_29
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1330
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a9352da1a685250800000000000000
+      internalID: 5933609172491016766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_30
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1290
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e60b7330268b5d30800000000000000
+      internalID: 4421274932055049958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_31
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1330
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66984361057cff9c0800000000000000
+      internalID: -3891172406240966298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_32
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1276
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3a97d3ef8d76660800000000000000
+      internalID: 7379105100934521804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_33
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1258
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a8b9bb0af008610800000000000000
+      internalID: 1621313048870095429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_34
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1277
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075933a952a9aad80800000000000000
+      internalID: -8238603082029361808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_35
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1276
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4b9b02e6b3d5b10800000000000000
+      internalID: 1971797556039627965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_36
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1258
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e87452cfd20c820800000000000000
+      internalID: 2936397518026018391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_37
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1277
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c1825cce182d3a0800000000000000
+      internalID: -6642103646498055144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_38
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1276
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592d2167f47396860800000000000000
+      internalID: 7523605466922013333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_39
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1258
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c7b3a3334ee7f20800000000000000
+      internalID: 3422423675519597605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_40
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1277
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c704ea12c743dd30800000000000000
+      internalID: 4454983355399931842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_41
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1276
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d278899db32a7a60800000000000000
+      internalID: 7672484212410708694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_42
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1258
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca0a1655ffe49380800000000000000
+      internalID: -8965277121197241651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_43
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1277
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5f6e7a074651410800000000000000
+      internalID: 1447173290285528546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_44
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1089
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c838a73cc7d5916b0800000000000000
+      internalID: -5325122293951986804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_45
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1201
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292da1007b32559c0800000000000000
+      internalID: -3939203030177885550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_46
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1221
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16bfa70ae8984090800000000000000
+      internalID: -8050016203006036450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_47
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1201
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7630df568304e8f50800000000000000
+      internalID: 6885511491269493607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_48
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1089
+        width: 137
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf71151dd76d11480800000000000000
+      internalID: -8930120750227974149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_49
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1201
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7218ffaaca676fd0800000000000000
+      internalID: -2348791261882215814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_50
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1221
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8c3c81978281d20800000000000000
+      internalID: 3249391631719450821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_51
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1201
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5f56197f9d7bbf0800000000000000
+      internalID: -308538392132061756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_52
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1089
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2778c8bad7e356780800000000000000
+      internalID: -8690471196471556238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_53
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1201
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d0fdb93008af800800000000000000
+      internalID: 646970249469431116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_54
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1221
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2997c4c0f923760800000000000000
+      internalID: 7436180809913569994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_55
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1201
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10908e170ed717c0800000000000000
+      internalID: -4100564813539667940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_56
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1089
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c4982a4d7a38a50800000000000000
+      internalID: 6522241217064422514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_57
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1201
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf206e9063698160800000000000000
+      internalID: 7028257960113483738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_58
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1221
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738184923ff168270800000000000000
+      internalID: 8252318496433117239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_59
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1201
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38e56a8adba43e20800000000000000
+      internalID: 3329474979646793789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1090
+        width: 156
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bca320b13d2aed00800000000000000
+      internalID: 1002663558475132084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_61
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1162
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9751bec4654190210800000000000000
+      internalID: 1299592328363316601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_62
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1121
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0886ee4a0ae4ce40800000000000000
+      internalID: 5675918760387971084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_63
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1162
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4131034a29266fd10800000000000000
+      internalID: 2159021453330092820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_64
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1090
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109ac2b79db02fce0800000000000000
+      internalID: -1373021907692246783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_65
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1162
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fe35ab147fc2ed0800000000000000
+      internalID: -2437301436643283092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_66
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1121
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e273cebd077bf80800000000000000
+      internalID: -8090874115684618692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_67
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1162
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2c06a00b1482ff0800000000000000
+      internalID: -60726370625338694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_68
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1090
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed2766060e9fa450800000000000000
+      internalID: 6102269768824729057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_69
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1162
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbcce24ba9ab25f0800000000000000
+      internalID: -780343557391332398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_70
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1121
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035a1a7acfbf506d0800000000000000
+      internalID: -3024734512146701008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_71
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1162
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180f688a8e62d7e30800000000000000
+      internalID: 4502797983142047873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_72
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1090
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f54977440f75c60800000000000000
+      internalID: 7806972655924698912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_73
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1162
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a74453c6654bfd0800000000000000
+      internalID: -2327140084693566842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_74
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1121
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d98d34a4208f180800000000000000
+      internalID: -9081506130603500238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_75
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1162
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fc199eda3990140800000000000000
+      internalID: 4686439262412984156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_76
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1108
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c356ab1c8725e3320800000000000000
+      internalID: 2539557918483309884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_77
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1090
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65afaf77d9890f9d0800000000000000
+      internalID: -2742524370978407850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_78
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1108
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39b480f4eca6d500800000000000000
+      internalID: 420713714493471037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_79
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1108
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a4ad71fb51bdd60800000000000000
+      internalID: 7915944680516897417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_80
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1090
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca769833493795ea0800000000000000
+      internalID: -5883544357825845332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_81
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1108
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa2c1432abafc6f0800000000000000
+      internalID: -662121907052860762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_82
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1108
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20aafb8c9d9979c0800000000000000
+      internalID: -3928935904215130065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_83
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1090
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15320731bc01a7c0800000000000000
+      internalID: -4061951433639840484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_84
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1108
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e1006c94797b990800000000000000
+      internalID: -7370255922058224022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_85
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1108
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437345623a5844510800000000000000
+      internalID: 1532496708982028084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_86
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1090
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d115f933046d750800000000000000
+      internalID: 6329316916776213876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_87
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1108
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578170413f7a5f4a0800000000000000
+      internalID: -6560152619740358539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_88
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 921
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cf50a04fe83c3f0800000000000000
+      internalID: -881703923243156350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_89
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1033
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbee6e6333b2c0dd0800000000000000
+      internalID: -2518590592642519364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_90
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1053
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579121fc609fee580800000000000000
+      internalID: -8795819214568810123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_91
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1033
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef82f1d7a6b85f50800000000000000
+      internalID: 6870442063451820014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_92
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 921
+        width: 137
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188b1bb6a9f790440800000000000000
+      internalID: 4902589970577995905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_93
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1033
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be31f30dedfe3db50800000000000000
+      internalID: 6616896017792963563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_94
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1053
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e5c2bd85d8962b0800000000000000
+      internalID: -5590782049630003663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_95
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1033
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6102b14e0f92cecd0800000000000000
+      internalID: -2527599176265818090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_96
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 921
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cda14ff9a51dfa80800000000000000
+      internalID: -8431559107491549756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_97
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1033
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c01c861fa74cabf0800000000000000
+      internalID: -311795456872279869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_98
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1053
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691f75b7e5a88ce80800000000000000
+      internalID: -8158118586580733546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_99
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1033
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f25c29c6af89e4a0800000000000000
+      internalID: -6563557035413318927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_100
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 921
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da53d8e24f523b6e0800000000000000
+      internalID: -1823071693471664723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_101
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1033
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ac8c5e9dc8f3f90800000000000000
+      internalID: -6971698830655305124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_102
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1053
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28362aefc724d08d0800000000000000
+      internalID: -2878571482204445822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_103
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1033
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0eafa4a9931e810800000000000000
+      internalID: 1792777461515870397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 922
+        width: 156
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0616286ac2b3684b0800000000000000
+      internalID: -5438594437045132960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_105
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 994
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8984abd752188e20800000000000000
+      internalID: 3352950091133782415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_106
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 953
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5154aa6e29554a0800000000000000
+      internalID: -6605211759072176731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_107
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 994
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743fa238e11253d20800000000000000
+      internalID: 3257546320405787463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_108
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 922
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea61b79eb9a9e840800000000000000
+      internalID: 5253917076358261476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_109
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 994
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fef5e194204c2f0800000000000000
+      internalID: -953634708030230682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_110
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 953
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9252d1ac7545d60800000000000000
+      internalID: 7878018173761825263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_111
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 994
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f63665d85797de10800000000000000
+      internalID: 2222411348923791097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_112
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 922
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1837fc8fc4d113910800000000000000
+      internalID: 1815264341236085633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_113
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 994
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad18f9e3f71997e0800000000000000
+      internalID: -1758347843141624415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_114
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 953
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ad50ba2fc4a9fe0800000000000000
+      internalID: -1181547347096249842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_115
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 994
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3871cb8beea65e0800000000000000
+      internalID: -1915456214295673926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_116
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 922
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d121ecac7e6ccb3e0800000000000000
+      internalID: -2036534232636059107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_117
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 994
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712830181a4b96890800000000000000
+      internalID: -7464236301642661353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_118
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 953
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183b15033ebe5be60800000000000000
+      internalID: 7977541675957465985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_119
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 994
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd4ee6ec46ff6d40800000000000000
+      internalID: 5579949273487658485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_120
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 940
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d621f302e5257590800000000000000
+      internalID: -7677188337124170024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_121
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 922
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3834606d41f1655c0800000000000000
+      internalID: -4227157025890090109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_122
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 940
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d385c3f2a8aa0c70800000000000000
+      internalID: 8938141828298146769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_123
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 940
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82eb88e07db497830800000000000000
+      internalID: 4069367125339848232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_124
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 922
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8382056c7d23cfb50800000000000000
+      internalID: 6628228653909026872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_125
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 940
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899571c5abda0e1c0800000000000000
+      internalID: -4476387013685716584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_126
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 940
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae099214f48f1d10800000000000000
+      internalID: 2098542135196847791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_127
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 922
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e89483c21aa7990800000000000000
+      internalID: -7387415027452899769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_128
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 940
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f27c0a6fbc0b9140800000000000000
+      internalID: 4727386250112955125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_129
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 940
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b783ec0c0034d60800000000000000
+      internalID: 7873137401667287931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_130
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 922
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48db28a3ce291f280800000000000000
+      internalID: -9011259836100067964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_131
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 940
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3b2e9d3c59293a0800000000000000
+      internalID: -6660096230520867856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_132
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 753
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7833e7b64f74620e0800000000000000
+      internalID: -2295067844997663865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_133
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 865
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30775264dd38a48f0800000000000000
+      internalID: -555486617638963453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_134
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 885
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e64171592b63ae0800000000000000
+      internalID: -1569871066684952964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_135
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 865
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21c7a848f0fea910800000000000000
+      internalID: 1850681446057361710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_136
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 753
+        width: 137
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793c97bf661474e00800000000000000
+      internalID: 1028862950438978455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_137
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 865
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4b9e3f4a7eb37e0800000000000000
+      internalID: -1784578131669437264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_138
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 885
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4bd21c5db1e0170800000000000000
+      internalID: 8146479380842788057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_139
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 865
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b901ee182c483cb10800000000000000
+      internalID: 2000588630421016731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_140
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 753
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a9e2a6809efadf0800000000000000
+      internalID: -166658438838969734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_141
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 865
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27445fcc4636c590800000000000000
+      internalID: -7654370813145757905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_142
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 885
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73409111b305226a0800000000000000
+      internalID: -6475525099585207241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_143
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 865
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1902cc01bde5940800000000000000
+      internalID: 5286903877770187242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_144
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 753
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da7870bbcd8c4a40800000000000000
+      internalID: 5353809963015240406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_145
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 865
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1a31dab0041ab30800000000000000
+      internalID: 4296785938380726698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_146
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 885
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162683a14b6e487b0800000000000000
+      internalID: -5222796006634528159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_147
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 865
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc29d7d5d51b0060800000000000000
+      internalID: 6920649260578450622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 754
+        width: 156
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f71f3627aea1030800000000000000
+      internalID: 3466340640238960454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_149
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 825
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a25bf8063c38af60800000000000000
+      internalID: 8045746937073980070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_150
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 785
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e3aee5655b8b1c0800000000000000
+      internalID: -4487637646110474593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_151
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 826
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cada63db7f357b530800000000000000
+      internalID: 3870654728244735404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_152
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 754
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56a6d71536f23330800000000000000
+      internalID: 3689281752663500378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_153
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 825
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23b5f8afa05a1c90800000000000000
+      internalID: -7198352339014143186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_154
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 785
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dc2bb3cd478edf0800000000000000
+      internalID: -150742098273710782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_155
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 826
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d083445febfd1c50800000000000000
+      internalID: 6637738431143444688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_156
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 754
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707e7c78cd285d220800000000000000
+      internalID: 2510056251011360519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_157
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 825
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcc08e160d888410800000000000000
+      internalID: 1479587535012285663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_158
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 785
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203a0614f1c4b86c0800000000000000
+      internalID: -4140131735312489726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_159
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 826
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9e49947ef995ae0800000000000000
+      internalID: -1560039980186408463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_160
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 754
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2138e72c19e588e0800000000000000
+      internalID: -1691689777869868758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_161
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 825
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57924b52510db58a0800000000000000
+      internalID: -6315225263211533963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_162
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 785
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee1227fd41952af0800000000000000
+      internalID: -421771226044555548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_163
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 826
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e6a429dc39b87a0800000000000000
+      internalID: -6373838336480874882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_164
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 772
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47677dce7dfc01930800000000000000
+      internalID: 4112014986087724660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_165
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 754
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2768481de9e1e600800000000000000
+      internalID: 495934638511384362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_166
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 772
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2347fcf168a71f330800000000000000
+      internalID: 3742907481799488562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_167
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 772
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d889c082e7f3e9aa0800000000000000
+      internalID: -6152410229871175539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_168
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 754
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3011b69f8a83cd80800000000000000
+      internalID: -8231583344589991875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_169
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 772
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7e2a603506c5580800000000000000
+      internalID: -8837082459097864230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_170
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 772
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0b18a4a91fa39d0800000000000000
+      internalID: -2793654973852700428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_171
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 754
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0d46d9f08d32320800000000000000
+      internalID: 2532104977089089783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_172
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 772
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95365b1dcd8c634e0800000000000000
+      internalID: -2002192133582920871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_173
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 772
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2e942fabeef6500800000000000000
+      internalID: 391794179300778708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_174
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 754
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e682728408e42e0800000000000000
+      internalID: -2139631725571445140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_175
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 772
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28745c2122bcbd860800000000000000
+      internalID: 7555856147048384386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_176
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 585
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a053afb302cc8b40800000000000000
+      internalID: 5443939370939928745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_177
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 696
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7e7c76c2d84ca40800000000000000
+      internalID: 5387586276101187547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_178
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 716
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d309c74687379e470800000000000000
+      internalID: 8424391538892378173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_179
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 697
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187320caa3f34db20800000000000000
+      internalID: 3158218759920039809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_180
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 585
+        width: 137
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22817d44d56918380800000000000000
+      internalID: -8970723655414245342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_181
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 696
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8450e0377448791b0800000000000000
+      internalID: -5649901765105154744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_182
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 716
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82b86c246c6cbc30800000000000000
+      internalID: 4376492115394867855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_183
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 697
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbdfd86c4e08c490800000000000000
+      internalID: -7725909439414281259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_184
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 585
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93462655d5fc0a830800000000000000
+      internalID: 4080489262169089081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_185
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 696
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc79f0b186faae8d0800000000000000
+      internalID: -2816245755301357621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_186
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 716
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73d0c9fc55883140800000000000000
+      internalID: 4699652845534761850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_187
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 697
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d769afde206b6d0800000000000000
+      internalID: -2975187282696962665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_188
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 585
+        width: 138
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe59e5c3a0b47f70800000000000000
+      internalID: 9184159757561847541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_189
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 696
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913248810c47e2d40800000000000000
+      internalID: 5561510958242997017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_190
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 716
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ef39cb8aedc0d80800000000000000
+      internalID: -8283000798341497210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_191
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 697
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c3a1e35c3841a20800000000000000
+      internalID: 3032193332300889169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 156
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81be1591416554b90800000000000000
+      internalID: -7258300580113552616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_193
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 657
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4e7a47639110060800000000000000
+      internalID: 6917838224293881064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_194
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 617
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884fbe596fb3c6e50800000000000000
+      internalID: 6803879067313239176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_195
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 658
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667048278ac0f2430800000000000000
+      internalID: 3760238131492947814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_196
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 586
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d54eb6b5210e84d0800000000000000
+      internalID: -3130563429484575273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_197
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 657
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cc9dbc3d8de1a80800000000000000
+      internalID: -8494113443004429225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_198
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 617
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4b4214652d18e50800000000000000
+      internalID: 6809955379462845631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_199
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 658
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2027e54ef7d986460800000000000000
+      internalID: 7235205973988504066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_200
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 586
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca3cb9942b428970800000000000000
+      internalID: 8755643246131821257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_201
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 657
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45cb1433af5c1d00800000000000000
+      internalID: 944735176399504716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_202
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 617
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e82460ffd51e430800000000000000
+      internalID: 3810430109635218963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_203
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 658
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba692b4602b40eb70800000000000000
+      internalID: 8926217063948785323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_204
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 586
+        width: 157
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3583351558c45a70800000000000000
+      internalID: 8814890638424376635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_205
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 657
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39003b29447204e0800000000000000
+      internalID: -2016921825502557894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_206
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 617
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f632cb5a0134cc660800000000000000
+      internalID: 7407369225896731503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_207
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 658
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565f2441b310330c0800000000000000
+      internalID: -4597329441360513691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_208
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 604
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c48cbc56cf85eea0800000000000000
+      internalID: -5844106859321195328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_209
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 586
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f068da954deeaf80800000000000000
+      internalID: -8093270597131804431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_210
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 604
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffd452ca76e072e0800000000000000
+      internalID: -2129949208825503756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_211
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 604
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5ee9775cdae8dc0800000000000000
+      internalID: -3634776785614346818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_212
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 586
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca4976a1abf94740800000000000000
+      internalID: 5136913521694034626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_213
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 604
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c807f77cae400a0800000000000000
+      internalID: -6916144985176765411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_214
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 604
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148f98fc3e61a8940800000000000000
+      internalID: 5299073079250122817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_215
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 586
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2076582c8d4fab370800000000000000
+      internalID: 8339246871843530498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_216
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 604
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e444759dfa7b9e250800000000000000
+      internalID: 5974508346577208398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_217
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 604
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9757e540ee496a6d0800000000000000
+      internalID: -2979530353462577799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_218
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 586
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6630216e5c1a6960800000000000000
+      internalID: 7595914913195767405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridTenki1_219
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 604
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9149feb2988a33e0800000000000000
+      internalID: -2073194514600083041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gridTenki1_0: -5165311198279579823
+      gridTenki1_1: -9010800145463037480
+      gridTenki1_10: 8013563248787885532
+      gridTenki1_100: -1823071693471664723
+      gridTenki1_101: -6971698830655305124
+      gridTenki1_102: -2878571482204445822
+      gridTenki1_103: 1792777461515870397
+      gridTenki1_104: -5438594437045132960
+      gridTenki1_105: 3352950091133782415
+      gridTenki1_106: -6605211759072176731
+      gridTenki1_107: 3257546320405787463
+      gridTenki1_108: 5253917076358261476
+      gridTenki1_109: -953634708030230682
+      gridTenki1_11: 4270211615757836531
+      gridTenki1_110: 7878018173761825263
+      gridTenki1_111: 2222411348923791097
+      gridTenki1_112: 1815264341236085633
+      gridTenki1_113: -1758347843141624415
+      gridTenki1_114: -1181547347096249842
+      gridTenki1_115: -1915456214295673926
+      gridTenki1_116: -2036534232636059107
+      gridTenki1_117: -7464236301642661353
+      gridTenki1_118: 7977541675957465985
+      gridTenki1_119: 5579949273487658485
+      gridTenki1_12: 8244798329628304027
+      gridTenki1_120: -7677188337124170024
+      gridTenki1_121: -4227157025890090109
+      gridTenki1_122: 8938141828298146769
+      gridTenki1_123: 4069367125339848232
+      gridTenki1_124: 6628228653909026872
+      gridTenki1_125: -4476387013685716584
+      gridTenki1_126: 2098542135196847791
+      gridTenki1_127: -7387415027452899769
+      gridTenki1_128: 4727386250112955125
+      gridTenki1_129: 7873137401667287931
+      gridTenki1_13: -8847606655804252333
+      gridTenki1_130: -9011259836100067964
+      gridTenki1_131: -6660096230520867856
+      gridTenki1_132: -2295067844997663865
+      gridTenki1_133: -555486617638963453
+      gridTenki1_134: -1569871066684952964
+      gridTenki1_135: 1850681446057361710
+      gridTenki1_136: 1028862950438978455
+      gridTenki1_137: -1784578131669437264
+      gridTenki1_138: 8146479380842788057
+      gridTenki1_139: 2000588630421016731
+      gridTenki1_14: -6016477791333370336
+      gridTenki1_140: -166658438838969734
+      gridTenki1_141: -7654370813145757905
+      gridTenki1_142: -6475525099585207241
+      gridTenki1_143: 5286903877770187242
+      gridTenki1_144: 5353809963015240406
+      gridTenki1_145: 4296785938380726698
+      gridTenki1_146: -5222796006634528159
+      gridTenki1_147: 6920649260578450622
+      gridTenki1_148: 3466340640238960454
+      gridTenki1_149: 8045746937073980070
+      gridTenki1_15: 2637516316705489362
+      gridTenki1_150: -4487637646110474593
+      gridTenki1_151: 3870654728244735404
+      gridTenki1_152: 3689281752663500378
+      gridTenki1_153: -7198352339014143186
+      gridTenki1_154: -150742098273710782
+      gridTenki1_155: 6637738431143444688
+      gridTenki1_156: 2510056251011360519
+      gridTenki1_157: 1479587535012285663
+      gridTenki1_158: -4140131735312489726
+      gridTenki1_159: -1560039980186408463
+      gridTenki1_16: 288849232703666193
+      gridTenki1_160: -1691689777869868758
+      gridTenki1_161: -6315225263211533963
+      gridTenki1_162: -421771226044555548
+      gridTenki1_163: -6373838336480874882
+      gridTenki1_164: 4112014986087724660
+      gridTenki1_165: 495934638511384362
+      gridTenki1_166: 3742907481799488562
+      gridTenki1_167: -6152410229871175539
+      gridTenki1_168: -8231583344589991875
+      gridTenki1_169: -8837082459097864230
+      gridTenki1_17: -4555143246677722191
+      gridTenki1_170: -2793654973852700428
+      gridTenki1_171: 2532104977089089783
+      gridTenki1_172: -2002192133582920871
+      gridTenki1_173: 391794179300778708
+      gridTenki1_174: -2139631725571445140
+      gridTenki1_175: 7555856147048384386
+      gridTenki1_176: 5443939370939928745
+      gridTenki1_177: 5387586276101187547
+      gridTenki1_178: 8424391538892378173
+      gridTenki1_179: 3158218759920039809
+      gridTenki1_18: 3235363666696747078
+      gridTenki1_180: -8970723655414245342
+      gridTenki1_181: -5649901765105154744
+      gridTenki1_182: 4376492115394867855
+      gridTenki1_183: -7725909439414281259
+      gridTenki1_184: 4080489262169089081
+      gridTenki1_185: -2816245755301357621
+      gridTenki1_186: 4699652845534761850
+      gridTenki1_187: -2975187282696962665
+      gridTenki1_188: 9184159757561847541
+      gridTenki1_189: 5561510958242997017
+      gridTenki1_19: -4852739509028892813
+      gridTenki1_190: -8283000798341497210
+      gridTenki1_191: 3032193332300889169
+      gridTenki1_192: -7258300580113552616
+      gridTenki1_193: 6917838224293881064
+      gridTenki1_194: 6803879067313239176
+      gridTenki1_195: 3760238131492947814
+      gridTenki1_196: -3130563429484575273
+      gridTenki1_197: -8494113443004429225
+      gridTenki1_198: 6809955379462845631
+      gridTenki1_199: 7235205973988504066
+      gridTenki1_2: 7975616817204762772
+      gridTenki1_20: -6396939204584023728
+      gridTenki1_200: 8755643246131821257
+      gridTenki1_201: 944735176399504716
+      gridTenki1_202: 3810430109635218963
+      gridTenki1_203: 8926217063948785323
+      gridTenki1_204: 8814890638424376635
+      gridTenki1_205: -2016921825502557894
+      gridTenki1_206: 7407369225896731503
+      gridTenki1_207: -4597329441360513691
+      gridTenki1_208: -5844106859321195328
+      gridTenki1_209: -8093270597131804431
+      gridTenki1_21: 4055127640481169472
+      gridTenki1_210: -2129949208825503756
+      gridTenki1_211: -3634776785614346818
+      gridTenki1_212: 5136913521694034626
+      gridTenki1_213: -6916144985176765411
+      gridTenki1_214: 5299073079250122817
+      gridTenki1_215: 8339246871843530498
+      gridTenki1_216: 5974508346577208398
+      gridTenki1_217: -2979530353462577799
+      gridTenki1_218: 7595914913195767405
+      gridTenki1_219: -2073194514600083041
+      gridTenki1_22: 7705594516852505791
+      gridTenki1_23: -2009864189564058844
+      gridTenki1_24: 3323217139237641580
+      gridTenki1_25: 856523980929336447
+      gridTenki1_26: 508139953748099461
+      gridTenki1_27: 379713199003793296
+      gridTenki1_28: 7865222668269040643
+      gridTenki1_29: 5933609172491016766
+      gridTenki1_3: -5053673173175212995
+      gridTenki1_30: 4421274932055049958
+      gridTenki1_31: -3891172406240966298
+      gridTenki1_32: 7379105100934521804
+      gridTenki1_33: 1621313048870095429
+      gridTenki1_34: -8238603082029361808
+      gridTenki1_35: 1971797556039627965
+      gridTenki1_36: 2936397518026018391
+      gridTenki1_37: -6642103646498055144
+      gridTenki1_38: 7523605466922013333
+      gridTenki1_39: 3422423675519597605
+      gridTenki1_4: 738046379597250567
+      gridTenki1_40: 4454983355399931842
+      gridTenki1_41: 7672484212410708694
+      gridTenki1_42: -8965277121197241651
+      gridTenki1_43: 1447173290285528546
+      gridTenki1_44: -5325122293951986804
+      gridTenki1_45: -3939203030177885550
+      gridTenki1_46: -8050016203006036450
+      gridTenki1_47: 6885511491269493607
+      gridTenki1_48: -8930120750227974149
+      gridTenki1_49: -2348791261882215814
+      gridTenki1_5: 4593324699471019105
+      gridTenki1_50: 3249391631719450821
+      gridTenki1_51: -308538392132061756
+      gridTenki1_52: -8690471196471556238
+      gridTenki1_53: 646970249469431116
+      gridTenki1_54: 7436180809913569994
+      gridTenki1_55: -4100564813539667940
+      gridTenki1_56: 6522241217064422514
+      gridTenki1_57: 7028257960113483738
+      gridTenki1_58: 8252318496433117239
+      gridTenki1_59: 3329474979646793789
+      gridTenki1_6: -717096350657633887
+      gridTenki1_60: 1002663558475132084
+      gridTenki1_61: 1299592328363316601
+      gridTenki1_62: 5675918760387971084
+      gridTenki1_63: 2159021453330092820
+      gridTenki1_64: -1373021907692246783
+      gridTenki1_65: -2437301436643283092
+      gridTenki1_66: -8090874115684618692
+      gridTenki1_67: -60726370625338694
+      gridTenki1_68: 6102269768824729057
+      gridTenki1_69: -780343557391332398
+      gridTenki1_7: 1827820310626456974
+      gridTenki1_70: -3024734512146701008
+      gridTenki1_71: 4502797983142047873
+      gridTenki1_72: 7806972655924698912
+      gridTenki1_73: -2327140084693566842
+      gridTenki1_74: -9081506130603500238
+      gridTenki1_75: 4686439262412984156
+      gridTenki1_76: 2539557918483309884
+      gridTenki1_77: -2742524370978407850
+      gridTenki1_78: 420713714493471037
+      gridTenki1_79: 7915944680516897417
+      gridTenki1_8: -3906448764099305630
+      gridTenki1_80: -5883544357825845332
+      gridTenki1_81: -662121907052860762
+      gridTenki1_82: -3928935904215130065
+      gridTenki1_83: -4061951433639840484
+      gridTenki1_84: -7370255922058224022
+      gridTenki1_85: 1532496708982028084
+      gridTenki1_86: 6329316916776213876
+      gridTenki1_87: -6560152619740358539
+      gridTenki1_88: -881703923243156350
+      gridTenki1_89: -2518590592642519364
+      gridTenki1_9: 6719428873789201822
+      gridTenki1_90: -8795819214568810123
+      gridTenki1_91: 6870442063451820014
+      gridTenki1_92: 4902589970577995905
+      gridTenki1_93: 6616896017792963563
+      gridTenki1_94: -5590782049630003663
+      gridTenki1_95: -2527599176265818090
+      gridTenki1_96: -8431559107491549756
+      gridTenki1_97: -311795456872279869
+      gridTenki1_98: -8158118586580733546
+      gridTenki1_99: -6563557035413318927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
