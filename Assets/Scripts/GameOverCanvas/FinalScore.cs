@@ -8,6 +8,6 @@ public class FinalScore : MonoBehaviour
 
     public void ShowScore()
     {
-        resultScoreText.text = "スコア: " + ScoreBoard.Instance.getScore();
+        resultScoreText.text = "スコア " + ScoreBoard.Instance.getScore();
     }
 }

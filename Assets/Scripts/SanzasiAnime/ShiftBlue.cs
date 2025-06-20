@@ -12,7 +12,9 @@ public class ShiftBlue : MonoBehaviour
 
     void Update()
     {
-        blue = 0.65f - 0.0005f * ScoreBoard.Instance.getScore();
+        if(ScoreBoard.Instance != null){
+            blue = 0.65f - 0.0005f * ScoreBoard.Instance.getScore();
+        }
         blue = Mathf.Clamp01(blue);  // 0〜1の範囲に制限
 
         Color c = sr.color;
