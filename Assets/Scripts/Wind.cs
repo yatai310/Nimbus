@@ -5,6 +5,8 @@ using UnityEngine.Networking;
 
 public class Wind : MonoBehaviour
 {
+    public GameObject arrow;
+
     public float forceRadius = 15f;//風の影響範囲（半径）
     public float attractionForce = 10f;//coreから移植、引力
     public LayerMask targetLayer;//風の影響を受ける対象レイヤー
@@ -38,10 +40,15 @@ public class Wind : MonoBehaviour
     {
         timer = 0f;
         currentWindIndex = 0;
-        StartCoroutine(FetchWindData());//ゲーム開始時にAPIから風データを取得するコルーチン、もしかしたらここで()内にURLいれないと無理なの？
+        StartCoroutine(FetchWindData());//ゲーム開始時にAPIから風データを取得するコルーチン
+
+    }
+    void Update()
+    {
+        ArrowDirect(currentWind);
     }
 
-    IEnumerator FetchWindData()//風データを取得して解析, WHile文使うかもこれだと遅かったらそのままで終わりじゃない？
+    IEnumerator FetchWindData()//風データを取得して解析
     {
         UnityWebRequest request = UnityWebRequest.Get(url + apiKey);//APIを叩く
         yield return request.SendWebRequest();//URLに接続してデータがくるまで待つ
@@ -81,6 +88,10 @@ public class Wind : MonoBehaviour
             timer = 0f;
             currentWindIndex += 1;
             currentWind = magnification*windForces[currentWindIndex];//風のつよさ制限したいからなんか入れるかもここら辺に
+            if(currentWind.sqrMagnitude>=10000)
+            {
+                currentWind = 99*currentWind.normalized;
+            }
             Debug.Log($"風向変更: {currentWind}");
         }
 
@@ -110,5 +121,11 @@ public class Wind : MonoBehaviour
             Debug.LogError("JSONに 'list' が見つかりませんでした");
             return "{}";
         }
+    }
+    private void ArrowDirect(Vector2 currentWind)//矢印の向きを変えちゃうマン
+    {
+        float angle = Mathf.Atan2(currentWind.y, currentWind.x) * Mathf.Rad2Deg;
+        Quaternion targetRotation = Quaternion.Euler(0, 0, angle-90f);
+        arrow.transform.rotation = Quaternion.Lerp(arrow.transform.rotation, targetRotation, Time.deltaTime * 10f);
     }
 }

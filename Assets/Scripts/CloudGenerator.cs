@@ -12,7 +12,6 @@ public class CloudGenerator : MonoBehaviour
     public float BombRadius = 1f;
     public LayerMask targetLayer;
 
-
     private void Start()//最初の雲じゃよ
     {
         CloudGenerate();
@@ -63,16 +62,16 @@ public class CloudGenerator : MonoBehaviour
             return;
         }
 
-        // Collider2D[] targets = Physics2D.OverlapCircleAll(mergePos, BombRadius, targetLayer);//周りを弾き飛ばす
-        // foreach (Collider2D target in targets)
-        // {
-        //     Rigidbody2D rb = target.attachedRigidbody;
-        //     if (rb != null)
-        //     {
-        //         Vector2 direction = (transform.position - target.transform.position).normalized;
-        //         rb.AddForce(direction * BombForce, ForceMode2D.Impulse);
-        //     }
-        // }
+        Collider2D[] targets = Physics2D.OverlapCircleAll(mergePos, BombRadius, targetLayer);//周りを弾き飛ばす
+        foreach (Collider2D target in targets)
+        {
+            Rigidbody2D rb = target.attachedRigidbody;
+            if (rb != null)
+            {
+                Vector2 direction = (mergePos - target.transform.position).normalized;
+                rb.AddForce(direction * BombForce, ForceMode2D.Impulse);
+            }
+        }
 
         GameObject mergedCloud = Instantiate(CloudPrefabs[newLevel], mergePos, Quaternion.identity);
 

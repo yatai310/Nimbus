@@ -14,6 +14,7 @@ public class CloudController : MonoBehaviour
     private void Start()//初期化
     {
         Application.targetFrameRate = 60;
+        QualitySettings.vSyncCount = 1;//垂直同期オン
         rb = GetComponent<Rigidbody2D>();
         controlKey = false;//生成時すぐに操作して範囲外、ゲームオーバーを防止
         Invoke("enableControl", 0.25f);//生成時すぐに操作して範囲外、ゲームオーバーを防止
