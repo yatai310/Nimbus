@@ -5,8 +5,12 @@ using UnityEngine.Networking;
 
 public class Wind : MonoBehaviour
 {
-    public float attractionRadius = 15f;//風の影響範囲（半径）
+    public GameObject arrow;
+
+    public float forceRadius = 15f;//風の影響範囲（半径）
+    public float attractionForce = 10f;//coreから移植、引力
     public LayerMask targetLayer;//風の影響を受ける対象レイヤー
+    public float magnification;
 
     private List<Vector2> windForces = new List<Vector2>();//各時間ごとの風力ベクトルを格納
     private int currentWindIndex;//現在適用中の風データのインデックス
@@ -36,10 +40,15 @@ public class Wind : MonoBehaviour
     {
         timer = 0f;
         currentWindIndex = 0;
-        StartCoroutine(FetchWindData());//ゲーム開始時にAPIから風データを取得するコルーチン、もしかしたらここで()内にURLいれないと無理なの？
+        StartCoroutine(FetchWindData());//ゲーム開始時にAPIから風データを取得するコルーチン
+
+    }
+    void Update()
+    {
+        ArrowDirect(currentWind);
     }
 
-    IEnumerator FetchWindData()//風データを取得して解析, WHile文使うかもこれだと遅かったらそのままで終わりじゃない？
+    IEnumerator FetchWindData()//風データを取得して解析
     {
         UnityWebRequest request = UnityWebRequest.Get(url + apiKey);//APIを叩く
         yield return request.SendWebRequest();//URLに接続してデータがくるまで待つ
@@ -63,10 +72,6 @@ public class Wind : MonoBehaviour
             currentWind = windForces[0];
             Debug.Log("風データ取得完了！");
         }
-        else if(request.result == UnityWebRequest.Result.InProgress)//ここ要らんの？
-        {
-            Debug.Log("リクエスト中だよぉ（ねっとり）");
-        }
         else
         {
             // 通信エラー処理
@@ -82,21 +87,26 @@ public class Wind : MonoBehaviour
         {
             timer = 0f;
             currentWindIndex += 1;
-            currentWind = 30*windForces[currentWindIndex];
+            currentWind = magnification*windForces[currentWindIndex];//風のつよさ制限したいからなんか入れるかもここら辺に
+            if(currentWind.sqrMagnitude>=10000)
+            {
+                currentWind = 99*currentWind.normalized;
+            }
             Debug.Log($"風向変更: {currentWind}");
         }
 
-        Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, attractionRadius, targetLayer);//風の影響範囲に入っているオブジェクトを取得
+        Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, forceRadius, targetLayer);//風の影響範囲に入っているオブジェクトを取得
         foreach (Collider2D target in targets)
         {
             Rigidbody2D rb = target.attachedRigidbody;
             if (rb != null)//Rigidbody2D があれば風の力を加える
             {
-                rb.AddForce(currentWind);//ForceMode2D.Forceは加速させます、いるのかな？
+                Vector2 direction = (transform.position - target.transform.position).normalized;
+                rb.AddForce(direction * attractionForce + currentWind);//ForceMode2D.Forceいるのかな？
             }
         }
     }
-    private string FixJson(string json)
+    private string FixJson(string json)//json保存で型式の都合でこうせざるをえない
     {
         int listIndex = json.IndexOf("\"list\"");
         if (listIndex >= 0)
@@ -111,5 +121,11 @@ public class Wind : MonoBehaviour
             Debug.LogError("JSONに 'list' が見つかりませんでした");
             return "{}";
         }
+    }
+    private void ArrowDirect(Vector2 currentWind)//矢印の向きを変えちゃうマン
+    {
+        float angle = Mathf.Atan2(currentWind.y, currentWind.x) * Mathf.Rad2Deg;
+        Quaternion targetRotation = Quaternion.Euler(0, 0, angle-90f);
+        arrow.transform.rotation = Quaternion.Lerp(arrow.transform.rotation, targetRotation, Time.deltaTime * 10f);
     }
 }
