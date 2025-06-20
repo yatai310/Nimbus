@@ -5,114 +5,127 @@ using UnityEngine.Networking;
 
 public class Wind : MonoBehaviour
 {
-    // 時間ごとの風データを表すクラス
+    public GameObject arrow;
+
+    public float forceRadius = 15f;//風の影響範囲（半径）
+    public float attractionForce = 10f;//coreから移植、引力
+    public LayerMask targetLayer;//風の影響を受ける対象レイヤー
+    public float magnification;
+
+    private List<Vector2> windForces = new List<Vector2>();//各時間ごとの風力ベクトルを格納
+    private int currentWindIndex;//現在適用中の風データのインデックス
+    private float timer;//風の切り替え用のタイマー
+
+    private string apiKey = "48dbfd08356661d251c65c60b4f5ee3f";
+    private string url = "https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=35&lon=136&units=metric&cnt=24&appid=";//緯度経度指定で場所変更
+
+    private Vector2 currentWind = Vector2.zero;//現在の風力（方向と強さを含む）
+
+    [System.Serializable] public class WindData//時間ごとの風データを表すクラス
+    {
+        public float speed;//風速（m/s）
+        public float deg;//風向（度数法で表現、北を0度として時計回り）
+        public float gust;//突風（使用していないがAPIには含まれる）
+    }
     [System.Serializable] public class HourlyData
     {
-        public float wind_speed;  // 風速（m/s）
-        public float wind_deg;    // 風向（度数法で表現、北を0度として時計回り）
-        public int dt;            // タイムスタンプ（使用していないがAPIには含まれる）
+        public WindData wind;
+        public string dt;
     }
-
-    // Forecast API の hourly 部分を格納するクラス
     [System.Serializable] public class ForecastData
     {
-        public List<HourlyData> hourly; // 1時間ごとの風データ
+        public List<HourlyData> list;
     }
-
-    public float attractionRadius = 5f;     // 風の影響範囲（半径）
-    public LayerMask targetLayer;           // 風の影響を受ける対象レイヤー
-
-    private List<Vector2> windForces = new List<Vector2>(); // 各時間ごとの風力ベクトルを格納
-    private int currentWindIndex = 0;       // 現在適用中の風データのインデックス
-    private float timer = 0f;               // 風の切り替え用のタイマー
-    private float changeInterval = 10f;     // 風を切り替える時間間隔（秒）
-
-    // OpenWeatherMapのAPIキーとURL（APIキーはセキュリティ的に外部に漏れないよう注意）
-    private string apiKey = "48dbfd08356661d251c65c60b4f5ee3f";
-    private string url = "https://api.openweathermap.org/data/2.5/forecast?lat=51.5074&lon=-0.1278&exclude=minutely,daily,current,alerts&units=metric&appid=";
-
-    private Vector2 currentWind = Vector2.zero; // 現在の風力（方向と強さを含む）
-
     void Start()
     {
-        // ゲーム開始時にAPIから風データを取得するコルーチンを実行
-        StartCoroutine(FetchWindData());
+        timer = 0f;
+        currentWindIndex = 0;
+        StartCoroutine(FetchWindData());//ゲーム開始時にAPIから風データを取得するコルーチン
+
+    }
+    void Update()
+    {
+        ArrowDirect(currentWind);
     }
 
-    // OpenWeatherMap API から風データを取得して解析する
-    IEnumerator FetchWindData()
+    IEnumerator FetchWindData()//風データを取得して解析
     {
-        UnityWebRequest www = UnityWebRequest.Get(url + apiKey);
-        yield return www.SendWebRequest();
+        UnityWebRequest request = UnityWebRequest.Get(url + apiKey);//APIを叩く
+        yield return request.SendWebRequest();//URLに接続してデータがくるまで待つ
 
-        // 通信が成功した場合
-        if (www.result == UnityWebRequest.Result.Success)
+        if(request.result == UnityWebRequest.Result.Success)//通信が成功した場合
         {
-            string json = www.downloadHandler.text;
+            string windData = request.downloadHandler.text;
 
-            // JSON文字列を ForecastData 型に変換
-            ForecastData data = JsonUtility.FromJson<ForecastData>(json);
+            ForecastData data = JsonUtility.FromJson<ForecastData>(FixJson(windData));//windData文字列を ForecastData 型に変換
 
-            windForces.Clear(); // 既存データをクリア
-            yield return new WaitForSeconds(5f); // 5秒待つ
+            windForces.Clear();//既存データをクリア
+            // yield return new WaitForSeconds(5f);//5秒待つ、これいる？
 
-            // 各時間帯の風データをベクトルに変換
-            foreach (var hour in data.hourly)
+            foreach (var hour in data.list)//各時間帯の風データをベクトルに変換
             {
-                // 風向に180度を加えて「風が来る方向」→「風が吹く方向」へ変換
-                float angle = Mathf.Deg2Rad * (hour.wind_deg + 180f);
+                float angle = Mathf.Deg2Rad * (hour.wind.deg + 180f);//風向に180度を加えて「風が来る方向」→「風が吹く方向」へ変換
                 Vector2 dir = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
-
-                // ベクトルに風速を掛けて風力を計算
-                Vector2 force = dir * hour.wind_speed;
-
-                // リストに追加
-                windForces.Add(force);
+                Vector2 windForce = dir * hour.wind.speed;//ベクトルに風速を掛けて風力を計算
+                windForces.Add(windForce);//リストに追加
             }
-
-            // 最初の風を設定
-            if (windForces.Count > 0)
-                currentWind = windForces[0];
-
+            currentWind = windForces[0];
             Debug.Log("風データ取得完了！");
         }
         else
         {
             // 通信エラー処理
-            Debug.LogError("API通信エラー: " + www.error);
+            Debug.LogError("API通信エラー: " + request.error);
         }
     }
 
-    // 一定間隔で風を切り替え、影響範囲内の対象に風の力を加える
-    void FixedUpdate()
+    void FixedUpdate()//一定間隔で風を切り替え、影響範囲内の対象に風の力を加える
     {
-        timer += Time.fixedDeltaTime;
-
-        if (windForces.Count == 0) return;
-
-        // 一定時間ごとに風を更新
-        if (timer >= changeInterval)
+        timer += Time.fixedDeltaTime;//時間計算、0.02秒ごと追加
+        if(windForces.Count==0) return;
+        if(timer >= 10f)//10秒ごとに風を更新
         {
             timer = 0f;
-
-            // 次の風に切り替え（ループする）
-            currentWindIndex = (currentWindIndex + 1) % windForces.Count;
-            currentWind = windForces[currentWindIndex];
-
+            currentWindIndex += 1;
+            currentWind = magnification*windForces[currentWindIndex];//風のつよさ制限したいからなんか入れるかもここら辺に
+            if(currentWind.sqrMagnitude>=10000)
+            {
+                currentWind = 99*currentWind.normalized;
+            }
             Debug.Log($"風向変更: {currentWind}");
         }
 
-        // 風の影響範囲に入っているオブジェクトを取得
-        Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, attractionRadius, targetLayer);
+        Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, forceRadius, targetLayer);//風の影響範囲に入っているオブジェクトを取得
         foreach (Collider2D target in targets)
         {
             Rigidbody2D rb = target.attachedRigidbody;
-
-            // Rigidbody2D があれば風の力を加える
-            if (rb != null)
+            if (rb != null)//Rigidbody2D があれば風の力を加える
             {
-                rb.AddForce(currentWind, ForceMode2D.Force);
+                Vector2 direction = (transform.position - target.transform.position).normalized;
+                rb.AddForce(direction * attractionForce + currentWind);//ForceMode2D.Forceいるのかな？
             }
         }
+    }
+    private string FixJson(string json)//json保存で型式の都合でこうせざるをえない
+    {
+        int listIndex = json.IndexOf("\"list\"");
+        if (listIndex >= 0)
+        {
+            int arrayStart = json.IndexOf('[', listIndex);
+            int arrayEnd = json.LastIndexOf(']');
+            string arrayJson = json.Substring(arrayStart, arrayEnd - arrayStart + 1);
+            return "{\"list\":" + arrayJson + "}";
+        }
+        else
+        {
+            Debug.LogError("JSONに 'list' が見つかりませんでした");
+            return "{}";
+        }
+    }
+    private void ArrowDirect(Vector2 currentWind)//矢印の向きを変えちゃうマン
+    {
+        float angle = Mathf.Atan2(currentWind.y, currentWind.x) * Mathf.Rad2Deg;
+        Quaternion targetRotation = Quaternion.Euler(0, 0, angle-90f);
+        arrow.transform.rotation = Quaternion.Lerp(arrow.transform.rotation, targetRotation, Time.deltaTime * 10f);
     }
 }
