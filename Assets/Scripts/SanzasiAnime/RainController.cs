@@ -36,9 +36,32 @@ public class RainController : MonoBehaviour
         if (rainObject != null){
             rainObject.SetActive(false);
         }
-
         if (rainAudio != null && rainAudio.isPlaying){
             rainAudio.Stop();
+        }
+    }
+
+    void FixedUpdate(){
+        int score = ScoreBoard.Instance.getScore();
+        var emission = rainObject.GetComponent<ParticleSystem>().emission;//コンポーネントを得る
+        var ps = rainObject.GetComponent<ParticleSystem>();
+        var main = ps.main;
+        //250点まで小雨
+        if(score < 250){
+            Debug.Log("小雨");
+            main.startLifetime = 1.5f;
+            emission.rateOverTime = 50f;
+            main.startSpeed = -20f;
+        }else if(250 < score && score <= 500){
+            Debug.Log("本降り");
+            emission.rateOverTime = 250f;
+            main.startSpeed = -50f;
+            main.startLifetime = 0.6f;
+        }else if(500 < score){
+            Debug.Log("最大雨");
+            emission.rateOverTime = 800f;
+            main.startSpeed = -100f;
+            main.startLifetime = 0.6f;
         }
     }
 }

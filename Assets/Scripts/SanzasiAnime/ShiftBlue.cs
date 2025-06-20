@@ -5,13 +5,11 @@ public class ShiftBlue : MonoBehaviour
     SpriteRenderer sr;
     float blue = 0.65f;
 
-    void Start()
-    {
+    void Start(){
         sr = GetComponent<SpriteRenderer>();
     }
 
-    void Update()
-    {
+    void Update(){
         if(ScoreBoard.Instance != null){
             blue = 0.65f - 0.0005f * ScoreBoard.Instance.getScore();
         }
