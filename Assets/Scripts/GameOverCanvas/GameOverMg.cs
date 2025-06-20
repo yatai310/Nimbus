@@ -42,6 +42,7 @@ public class GameOverMg : MonoBehaviour
                 if (finalScore != null){
                     finalScore.ShowScore();
                 }
+                RainController.Instance.RainStop();//雨を止める
                 //時間を止める
                 Time.timeScale = 0f;
                 break;

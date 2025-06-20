@@ -7,8 +7,7 @@ public class RainController : MonoBehaviour
     public GameObject rainObject;
     public AudioSource rainAudio;
 
-    void Awake()
-    {
+    void Awake(){
         Debug.Log("RainController Awake 開始");
         if (Instance == null){
             Instance = this;
@@ -19,17 +18,27 @@ public class RainController : MonoBehaviour
             rainObject.SetActive(false);  // 最初は非表示にする
         }
         if (rainObject != null){
+            rainAudio.loop = true;
             rainAudio.Stop();  // 雨音を止めておく
         }
     }
 
-    public void RainActive()
-    {
+    public void RainActive(){
         if (rainObject != null){
             rainObject.SetActive(true);
         }
-        if (rainAudio != null && rainAudio.isPlaying){
+        if (rainAudio != null && !rainAudio.isPlaying){
             rainAudio.Play();
+        }
+    }
+
+    public void RainStop(){
+        if (rainObject != null){
+            rainObject.SetActive(false);
+        }
+
+        if (rainAudio != null && rainAudio.isPlaying){
+            rainAudio.Stop();
         }
     }
 }
