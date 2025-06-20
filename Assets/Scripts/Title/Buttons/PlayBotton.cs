@@ -3,6 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using System;
+using TMPro;
 
 public class PlayBotton : MonoBehaviour
 {
@@ -10,6 +12,12 @@ public class PlayBotton : MonoBehaviour
     public Slider ProgressBar;
     public GameObject NowLoading;
     public CanvasGroup LoadingCanvasGroup;
+    public TextMeshProUGUI LoadingMamechisiki;
+    private String[] mametisiki = {
+        "Nimbusは「雨雲」を表す英単語",
+        "雲を書いている人、声を担当してるのは同一人物"
+    };
+    private int index = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Awake()
@@ -23,7 +31,14 @@ public class PlayBotton : MonoBehaviour
     public void Scenemg()
     {
         Debug.Log("Scenemg");
+        apdateMametisiki();
         StartCoroutine(LoadSceneAsync());
+    }
+    private void apdateMametisiki()
+    {
+        LoadingMamechisiki.text = "-豆知識-\n";
+        LoadingMamechisiki.text += mametisiki[index % mametisiki.Length];
+        index++;
     }
     IEnumerator LoadSceneAsync()
     {
