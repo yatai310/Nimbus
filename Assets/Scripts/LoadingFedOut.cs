@@ -14,21 +14,24 @@ public class LoadingFedOut : MonoBehaviour
     void Start()
     {
         NowLoading = GameObject.Find("NowLoading");
-        LoadingCanvasGroup = NowLoading.GetComponent<CanvasGroup>();
-        ProgressBar = NowLoading.GetComponentInChildren<Slider>();
-        if (ProgressBar == null)
+        if (NowLoading != null)
         {
-            Debug.LogError("ProgressBar Slider is missing.");
-            return;
+            LoadingCanvasGroup = NowLoading.GetComponent<CanvasGroup>();
+            ProgressBar = NowLoading.GetComponentInChildren<Slider>();
         }
+        if (ProgressBar == null)
+            {
+                Debug.Log("ProgressBar Slider is missing.");
+                return;
+            }
         if (NowLoading == null)
         {
-            Debug.LogError("NowLoading GameObject is missing.");
+            Debug.Log("NowLoading GameObject is missing.");
             return;
         }
         if (LoadingCanvasGroup == null)
         {
-            Debug.LogError("LoadingCanvasGroup component is missing.");
+            Debug.Log("LoadingCanvasGroup component is missing.");
             return;
         }
        StartCoroutine(FadOut()); 
