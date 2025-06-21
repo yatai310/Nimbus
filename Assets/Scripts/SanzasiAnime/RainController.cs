@@ -47,7 +47,7 @@ public class RainController : MonoBehaviour
         var ps = rainObject.GetComponent<ParticleSystem>();
         var main = ps.main;
         //250点まで小雨
-        if(score < 250){
+        if(score <= 250){
             Debug.Log("小雨");
             main.startLifetime = 1.5f;
             emission.rateOverTime = 50f;
