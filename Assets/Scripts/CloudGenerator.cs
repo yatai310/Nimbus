@@ -72,7 +72,7 @@ public class CloudGenerator : MonoBehaviour
             Rigidbody2D rb = target.attachedRigidbody;
             if (rb != null)
             {
-                Vector2 direction = (mergePos - target.transform.position).normalized;
+                Vector2 direction = (target.transform.position-mergePos).normalized;
                 rb.AddForce(direction * BombForce, ForceMode2D.Impulse);
             }
         }
@@ -105,10 +105,10 @@ public class CloudGenerator : MonoBehaviour
     private IEnumerator ResetMergingFlag()
     {
         yield return new WaitForSeconds(0.05f);
-        // yield return null;//1フレーム待つ（Destroyが完全に終わるまで）
+        // yield return null;//1フレーム待つ（Destroyが完全に終わるまで）、要らないかも？
         isMerging = false;
     }
-    // IEnumerator ReenablePhysics(Rigidbody2D rb)
+    // IEnumerator ReenablePhysics(Rigidbody2D rb)//スイカゲームには使われてるみたいなので導入しましたが、意味を感じられませんでしたので、一旦保留します。
     // {
     //     yield return new WaitForSeconds(0.1f);
     //     rb.isKinematic = false;
