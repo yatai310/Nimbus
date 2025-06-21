@@ -32,27 +32,27 @@ public class Alert : MonoBehaviour
         int score = ScoreBoard.Instance.getScore();
         if(0<score && score<500 && rain==1)
         {
-            alertText.text = "あいにくの雨";
+            alertText.text = "あいにくの雨となりました";
             rain = 2;
         }
         else if(500<=score && score<800 && rain==2)
         {
-            alertText.text = "大雨注意報発令";
+            alertText.text = "大雨注意報発令    本日の降水量が50mmを記録しました";
             rain = 3;
         }
         else if(800<=score && score<2000 && rain==3)
         {
-            alertText.text = "大雨警報発令!";
+            alertText.text = "大雨警報発令!    本日の降水量が80mmを記録しました";
             rain = 4;
         }
         else if(2000<=score && score<3000 && rain==4)
         {
-            alertText.text = "信じられない豪雨です!!";
+            alertText.text = "信じられない豪雨です!!    本日の降水量が200mmを記録しました";
             rain = 5;
         }
         else if(3000<=score && rain==5)
         {
-            alertText.text = "大雨特別警報発令！！直ちに避難してください！！";
+            alertText.text = "大雨特別警報発令！！直ちに避難してください！！      本日の降水量が300mmを記録しました";
             rain = 6;
         }
     }
