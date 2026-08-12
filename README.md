@@ -11,13 +11,14 @@ yataiによる紹介動画:https://100.gigafile.nu/1008-rb3c9b0bd4de29f353c0d491
 
 ## 役割
 
-  ### yatai
+### yatai
+
   ゲームシーン、原案担当
 
-  ### 浅田まさひろ
+### 浅田まさひろ
   タイトル・ステージ選択シーン担当
 
-  ### sanzasi
+### sanzasi
   ゲームオーバーシーン、効果音担当
   
 ## 役割(予定)
@@ -29,8 +30,10 @@ yataiによる紹介動画:https://100.gigafile.nu/1008-rb3c9b0bd4de29f353c0d491
   浅田まさひろ、sanzasi
   
 ### BGM
-  Yatai
+  yatai
+
   
 ### デザイン
-  Yatai
+  yatai
+
   
