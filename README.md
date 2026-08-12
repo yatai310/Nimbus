@@ -20,7 +20,7 @@ yataiによる紹介動画:https://100.gigafile.nu/1008-rb3c9b0bd4de29f353c0d491
   ### sanzasi
   ゲームオーバーシーン、効果音担当
   
-##  役割(予定)
+## 役割(予定)
 
 ### voice
   全員
