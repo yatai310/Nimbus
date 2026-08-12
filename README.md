@@ -2,10 +2,11 @@
 *本日の気象情報をお伝えします。/本日の天気は雨、時々晴れでしょう。*
 <br>
 <br>
-NimusはUnityで作られたスイカゲームを無理やり円状に引き延ばした感じのパズルゲームです。[AizuHack2025](https://2025.aizuhack.zli.works/)にて作成されました。
+NimusはUnityで作られたスイカゲームを無理やり円状に引き延ばした感じのパズルゲームです。<br>
+[AizuHack2025](https://2025.aizuhack.zli.works/)にて作成されました。
 
 ## 紹介動画
-yataiによる紹介動画（ギガファイル便）：https://100.gigafile.nu/1008-rb3c9b0bd4de29f353c0d491bb1f15aeb <br>
+yataiによる紹介動画:https://100.gigafile.nu/1008-rb3c9b0bd4de29f353c0d491bb1f15aeb <br>
 上記動画のパスワード:`6394`
 
 ## 役割
